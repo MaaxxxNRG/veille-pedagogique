@@ -198,7 +198,7 @@ const $=s=>document.querySelector(s);
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safeUrl=u=>/^https?:\/\//i.test(u||'')?u:'#';
 const fmtDate=d=>{if(!d)return'';if(/^\d{4}-\d{2}$/.test(d))return new Date(d+'-15').toLocaleDateString('fr-FR',{month:'long',year:'numeric'});const x=new Date(d);return isNaN(x)?esc(d):x.toLocaleDateString('fr-FR',{day:'numeric',month:'short',year:'numeric'})};
-const isNew=it=>it.addedAt&&(Date.now()-new Date(it.addedAt))<36*3600e3;
+const isNew=it=>it.addedAt&&(Date.now()-new Date(it.addedAt))<7*24*3600e3;
 const all=()=>[...S.items,...S.mine];
 
 /* Apparence */
@@ -251,11 +251,11 @@ function subLine(){
  const d=new Date().toLocaleDateString('fr-FR',{weekday:'long',day:'numeric',month:'long'});
  const its=all(),nw=its.filter(isNew).length,np=its.filter(i=>i.type==='paper').length;
  const last=S.meta&&S.meta.lastRun?` · dernière collecte ${new Date(S.meta.lastRun).toLocaleString('fr-FR',{weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})}`:'';
- return `${d.charAt(0).toUpperCase()+d.slice(1)} · <b>${nw} nouveauté${nw>1?'s':''}</b> · ${np} papiers et ${its.length-np} articles et rapports suivis${last}`}
+ return `${d.charAt(0).toUpperCase()+d.slice(1)} · <b>${nw} nouveauté${nw>1?'s':''} cette semaine</b> · ${np} papiers et ${its.length-np} articles et rapports suivis${last}`}
 
 function home(){
  const its=all();
- if(!its.length)return `<p class="empty">${S.loaded?'Aucun contenu pour l’instant. La prochaine collecte arrive demain matin.':'…'}</p>`;
+ if(!its.length)return `<p class="empty">${S.loaded?'Aucun contenu pour l’instant. La prochaine collecte arrive vendredi matin.':'…'}</p>`;
  const max=Math.max(1,...THEMES.map(t=>its.filter(i=>i.theme===t.id).length));
  const idx=THEMES.map(t=>{const n=its.filter(i=>i.theme===t.id).length;
   return `<button class="irow" data-th="${t.id}"><span>${esc(t.label)}</span><span class="n">${n}</span><span class="track"><i style="width:${n/max*100}%"></i></span></button>`}).join('');
@@ -263,7 +263,7 @@ function home(){
  const rubs=THEMES.map(t=>{const l=its.filter(i=>i.theme===t.id).sort(byDate);if(!l.length)return'';
   return `<section class="rub"><div class="rubh"><h2>${esc(t.label)}</h2><span class="note">${l.filter(i=>i.type==='paper').length} papiers · ${l.filter(i=>i.type!=='paper').length} articles</span>${l.length>3?`<button class="more" data-th="${t.id}">Tout voir (${l.length})</button>`:''}</div><div class="grid">${l.slice(0,3).map(i=>card(i)).join('')}</div></section>`}).join('');
  return `${S.offline?'<p class="offline">Hors ligne : tu consultes la dernière veille enregistrée sur cet appareil.</p>':''}<div class="index" aria-label="Sommaire par thème">${idx}</div>
- <section class="rub"><div class="rubh"><h2>À la une ce matin</h2></div><div class="grid">${lead.map(i=>card(i,true)).join('')}</div></section>${rubs}`}
+ <section class="rub"><div class="rubh"><h2>À la une cette semaine</h2></div><div class="grid">${lead.map(i=>card(i,true)).join('')}</div></section>${rubs}`}
 
 function filters(){
  return `<div class="filters"><input id="q" type="search" placeholder="Chercher un titre, un auteur, une source" value="${esc(S.q)}">
