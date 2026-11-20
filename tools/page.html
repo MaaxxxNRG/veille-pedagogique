@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La Veille</title>
+<meta name="description" content="Veille quotidienne en pédagogie et sciences de l'apprentissage">
+<meta name="theme-color" content="#1d2bd8">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/svg+xml" href="icon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/icon-32.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="La Veille">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script>try{var t=localStorage.getItem('veille-theme')||'system';document.documentElement.dataset.mode=t==='system'?(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'):t}catch(e){document.documentElement.dataset.mode=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}</script>
+<style>/*CSS*/
+.ai dl{margin:0;display:grid;gap:6px}.ai dt{font-weight:600;font-size:13px;color:var(--acc)}.ai dd{margin:0}
+.ai h4{margin:0 0 4px;font-family:Spectral,Georgia,serif;font-weight:500;font-size:17px;line-height:1.3}
+.ai{white-space:normal}.ai p{margin:0}
+.mark img{width:28px;height:28px;border-radius:7px;vertical-align:-6px;margin-right:8px}
+.badge{font-size:12px;font-weight:600;padding:1px 7px;border-radius:999px;background:var(--accsoft);color:var(--acc);margin-left:6px}
+.offline{background:var(--accsoft);color:var(--ink);border-radius:10px;padding:10px 14px;font-size:14px;margin-top:12px}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap bar">
+  <div class="mark"><img src="icons/icon-192.png" alt="">La <i>Veille</i></div>
+  <nav class="tabs" id="tabs" aria-label="Sections">
+    <button data-v="home">Accueil</button><button data-v="paper">Papiers</button><button data-v="article">Articles</button><button data-v="lib">Bibliothèque</button><button data-v="sources">Sources</button><button data-v="tr">Traduire</button>
+  </nav>
+  <div class="seg" role="group" aria-label="Apparence">
+    <button data-t="light">Jour</button><button data-t="dark">Nuit</button><button data-t="system">Système</button>
+  </div>
+</div></header>
+
+<main class="wrap">
+  <div class="hello">
+    <h1>Bonjour Joris, voici ta veille du jour</h1>
+    <p id="sub">Chargement de la veille…</p>
+  </div>
+  <div id="view"></div>
+</main>
+
+<button class="fab" id="fab" aria-label="Ajouter une source ou un contenu">+</button>
+
+<dialog id="dlg">
+  <form class="form" id="addf">
+    <h2 style="font-size:24px">Ajouter</h2>
+    <div class="seg" role="group" aria-label="Type d'ajout" style="justify-self:start">
+      <button type="button" data-m="source" aria-pressed="true">Une source</button><button type="button" data-m="item" aria-pressed="false">Un papier ou article</button>
+    </div>
+    <div id="fsource">
+      <div class="form" style="padding:0">
+        <label>Nom de la source<input name="sname" placeholder="ex. Revue STICEF"></label>
+        <label>Adresse (URL)<input name="surl" type="url" placeholder="https://"></label>
+        <div class="row">
+          <label>Langue<select name="slang"><option value="fr">Français</option><option value="en">Anglais</option></select></label>
+          <label>Type<select name="skind"><option>Revue scientifique</option><option>Média</option><option>Blog</option><option>Institution</option><option>Base de données</option></select></label>
+        </div>
+        <div><div style="font-size:14px;font-weight:500;margin-bottom:6px">Thèmes suivis</div><div class="checks" id="schecks"></div></div>
+        <p class="note">La source est enregistrée sur cet appareil. Pour que la collecte du matin la fouille aussi, utilise « Proposer à la veille » dans l'onglet Sources.</p>
+      </div>
+    </div>
+    <div id="fitem" hidden>
+      <div class="form" style="padding:0">
+        <label>Titre<input name="ititle"></label>
+        <label>Adresse (URL)<input name="iurl" type="url" placeholder="https://"></label>
+        <div class="row">
+          <label>Type<select name="itype"><option value="paper">Papier scientifique</option><option value="article">Article</option><option value="report">Rapport</option></select></label>
+          <label>Langue<select name="ilang"><option value="en">Anglais</option><option value="fr">Français</option></select></label>
+        </div>
+        <div class="row">
+          <label>Thème<select name="itheme" id="ithemes"></select></label>
+          <label>Source<input name="isource"></label>
+        </div>
+        <label>Résumé ou abstract (facultatif)<textarea name="iabs" rows="4"></textarea></label>
+      </div>
+    </div>
+    <p class="status" id="fstat"></p>
+    <div class="foot"><button type="button" class="btn ghost" id="cancel">Annuler</button><button class="btn">Enregistrer</button></div>
+  </form>
+</dialog>
+
+<script>
+{
+const REPO='https://github.com/MaaxxxNRG/veille-pedagogique';
+const THEMES=[
+ {id:'ia',label:'IA & apprentissage'},
+ {id:'cognition',label:'Mémoire & sciences cognitives'},
+ {id:'charge',label:'Charge cognitive & multimédia'},
+ {id:'evaluation',label:'Évaluation & feedback'},
+ {id:'adultes',label:'Formation des adultes & L&D'},
+ {id:'politiques',label:'Systèmes & politiques éducatives'}];
+const TL=Object.fromEntries(THEMES.map(t=>[t.id,t.label]));
+const TYPE={paper:'Papier scientifique',article:'Article',report:'Rapport'};
+const IC={
+ sum:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 3h9l3 3v15H6z"/><path d="M9 10h6M9 14h6M9 18h4"/></svg>',
+ vul:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z"/></svg>',
+ tr:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5h9M7.5 3v2c0 4-2 7-4.5 8.5M5 9c1 2 3.5 4 6 4.5"/><path d="M13 21l4-9 4 9M14.5 18h5"/></svg>',
+ bm:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M6 3h12v18l-6-4-6 4z"/></svg>',
+ bmf:'<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M6 3h12v18l-6-4-6 4z"/></svg>'};
+const LABELS={paper:['Question','Méthode','Résultats','Pour concevoir une formation'],other:['Sujet','Angle et sources','Points clés','Pour ta pratique']};
+
+const store={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:JSON.parse(v)}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+const S={items:[],mine:store.get('veille-items-perso',[]),sources:[],mySources:store.get('veille-sources-perso',[]),lib:store.get('veille-lib',{}),
+ meta:null,view:'home',theme:'',q:'',lang:'',open:{},loaded:false,err:'',offline:false,trOut:''};
+const $=s=>document.querySelector(s);
+const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const safeUrl=u=>/^https?:\/\//i.test(u||'')?u:'#';
+const fmtDate=d=>{if(!d)return'';if(/^\d{4}-\d{2}$/.test(d))return new Date(d+'-15').toLocaleDateString('fr-FR',{month:'long',year:'numeric'});const x=new Date(d);return isNaN(x)?esc(d):x.toLocaleDateString('fr-FR',{day:'numeric',month:'short',year:'numeric'})};
+const isNew=it=>it.addedAt&&(Date.now()-new Date(it.addedAt))<36*3600e3;
+const all=()=>[...S.items,...S.mine];
+
+/* Apparence */
+const mq=matchMedia('(prefers-color-scheme: dark)');let pref='system';
+function applyTheme(t){pref=(t==='light'||t==='dark')?t:'system';document.documentElement.dataset.mode=pref==='system'?(mq.matches?'dark':'light'):pref;
+ document.querySelectorAll('[data-t]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.t===pref)));
+ try{localStorage.setItem('veille-theme',pref)}catch(e){}
+ const m=document.querySelector('meta[name=theme-color]');if(m)m.content=document.documentElement.dataset.mode==='dark'?'#0d0e18':'#1d2bd8'}
+mq.addEventListener('change',()=>{if(pref==='system')applyTheme('system')});
+let saved='system';try{saved=localStorage.getItem('veille-theme')||'system'}catch(e){}
+applyTheme(saved);
+document.querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>applyTheme(b.dataset.t));
+
+/* Navigation */
+const VIEWS=['home','paper','article','lib','sources','tr'];
+function go(v,theme){S.view=v;S.theme=theme||'';if(location.hash!=='#'+v)history.replaceState(null,'','#'+v);render();window.scrollTo({top:0})}
+document.querySelectorAll('#tabs button').forEach(b=>b.onclick=()=>go(b.dataset.v));
+const startV=(location.hash||'').slice(1);if(VIEWS.includes(startV))S.view=startV;
+addEventListener('hashchange',()=>{const v=location.hash.slice(1);if(v&&v!==S.view&&VIEWS.includes(v)){S.view=v;render()}});
+
+function panel(it,o){
+ const note='<small>Préparé lors de la collecte du matin à partir du résumé de la publication. À vérifier sur la source.</small>';
+ if(o==='sum'){const r=it.resume;if(!r)return `<div class="ai">Pas de résumé préparé pour un contenu ajouté à la main.</div>`;
+  const L=it.type==='paper'?LABELS.paper:LABELS.other;
+  return `<div class="ai">${note}<dl>${['q','m','r','p'].map((k,i)=>r[k]?`<dt>${L[i]}</dt><dd>${esc(r[k])}</dd>`:'').join('')}</dl></div>`}
+ if(o==='vul')return `<div class="ai">${it.vulga?note+'<p>'+esc(it.vulga)+'</p>':'Pas de version vulgarisée préparée pour ce contenu.'}</div>`;
+ if(o==='tr'){const t=it.trad;if(!t)return `<div class="ai">Pas de traduction préparée pour ce contenu. Tu peux coller son texte dans l’onglet Traduire.</div>`;
+  return `<div class="ai">${note}<h4>${esc(t.titre)}</h4><p>${esc(t.resume)}</p></div>`}
+ return ''}
+
+function card(it,lead){
+ const saved=!!S.lib[it.id],o=S.open[it.id];
+ return `<article class="card${lead?' lead':''}">
+  <div class="meta"><span class="tag${it.type==='paper'?'':' art'}">${TYPE[it.type]||'Article'}</span>${isNew(it)?'<span class="tag new">Nouveau</span>':''}${it.by==='perso'?'<span class="tag art">Ajouté par toi</span>':''}<span>${esc(it.source)}</span><span>${fmtDate(it.date)}</span><span class="lang">${it.lang==='en'?'EN':'FR'}</span></div>
+  <h3${lead?' style="font-size:24px"':''}><a href="${esc(safeUrl(it.url))}" target="_blank" rel="noopener">${esc(it.title)}</a></h3>
+  ${it.authors?`<p class="authors">${esc(it.authors)}</p>`:''}
+  ${it.abstract?`<p class="abs">${esc(it.abstract)}</p>`:''}
+  ${o?panel(it,o):''}
+  <div class="acts">
+   <button class="ic" data-a="sum" data-id="${esc(it.id)}" aria-pressed="${o==='sum'}" title="Résumé">${IC.sum}<span>Résumé</span></button>
+   ${it.type!=='article'?`<button class="ic" data-a="vul" data-id="${esc(it.id)}" aria-pressed="${o==='vul'}" title="Vulgariser">${IC.vul}<span>Vulgariser</span></button>`:''}
+   ${it.lang==='en'?`<button class="ic" data-a="tr" data-id="${esc(it.id)}" aria-pressed="${o==='tr'}" title="Traduire en français">${IC.tr}<span>Traduire</span></button>`:''}
+   <button class="ic${saved?' saved':''}" data-a="save" data-id="${esc(it.id)}" aria-pressed="${saved}" title="${saved?'Retirer de la bibliothèque':'Garder dans ma bibliothèque'}" style="margin-left:auto">${saved?IC.bmf:IC.bm}<span>${saved?'Gardé':'Garder'}</span></button>
+  </div></article>`}
+
+const byDate=(a,b)=>(b.date||'').localeCompare(a.date||'')||(b.addedAt||'').localeCompare(a.addedAt||'');
+
+function subLine(){
+ if(!S.loaded)return S.err||'Chargement de la veille…';
+ const d=new Date().toLocaleDateString('fr-FR',{weekday:'long',day:'numeric',month:'long'});
+ const its=all(),nw=its.filter(isNew).length,np=its.filter(i=>i.type==='paper').length;
+ const last=S.meta&&S.meta.lastRun?` · dernière collecte ${new Date(S.meta.lastRun).toLocaleString('fr-FR',{weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})}`:'';
+ return `${d.charAt(0).toUpperCase()+d.slice(1)} · <b>${nw} nouveauté${nw>1?'s':''}</b> · ${np} papiers et ${its.length-np} articles et rapports suivis${last}`}
+
+function home(){
+ const its=all();
+ if(!its.length)return `<p class="empty">${S.loaded?'Aucun contenu pour l’instant. La prochaine collecte arrive demain matin.':'…'}</p>`;
+ const max=Math.max(1,...THEMES.map(t=>its.filter(i=>i.theme===t.id).length));
+ const idx=THEMES.map(t=>{const n=its.filter(i=>i.theme===t.id).length;
+  return `<button class="irow" data-th="${t.id}"><span>${esc(t.label)}</span><span class="n">${n}</span><span class="track"><i style="width:${n/max*100}%"></i></span></button>`}).join('');
+ const lead=[...its].sort((a,b)=>(b.addedAt||'').localeCompare(a.addedAt||'')||byDate(a,b)).slice(0,3);
+ const rubs=THEMES.map(t=>{const l=its.filter(i=>i.theme===t.id).sort(byDate);if(!l.length)return'';
+  return `<section class="rub"><div class="rubh"><h2>${esc(t.label)}</h2><span class="note">${l.filter(i=>i.type==='paper').length} papiers · ${l.filter(i=>i.type!=='paper').length} articles</span>${l.length>3?`<button class="more" data-th="${t.id}">Tout voir (${l.length})</button>`:''}</div><div class="grid">${l.slice(0,3).map(i=>card(i)).join('')}</div></section>`}).join('');
+ return `${S.offline?'<p class="offline">Hors ligne : tu consultes la dernière veille enregistrée sur cet appareil.</p>':''}<div class="index" aria-label="Sommaire par thème">${idx}</div>
+ <section class="rub"><div class="rubh"><h2>À la une ce matin</h2></div><div class="grid">${lead.map(i=>card(i,true)).join('')}</div></section>${rubs}`}
+
+function filters(){
+ return `<div class="filters"><input id="q" type="search" placeholder="Chercher un titre, un auteur, une source" value="${esc(S.q)}">
+ <select id="fth"><option value="">Tous les thèmes</option>${THEMES.map(t=>`<option value="${t.id}"${S.theme===t.id?' selected':''}>${esc(t.label)}</option>`).join('')}</select>
+ <select id="flang"><option value="">FR et EN</option><option value="fr"${S.lang==='fr'?' selected':''}>Français</option><option value="en"${S.lang==='en'?' selected':''}>Anglais</option></select></div>`}
+
+function list(kind){
+ const q=S.q.toLowerCase();
+ let its=all().filter(i=>kind==='paper'?i.type==='paper':i.type!=='paper');
+ if(S.theme)its=its.filter(i=>i.theme===S.theme);if(S.lang)its=its.filter(i=>i.lang===S.lang);
+ if(q)its=its.filter(i=>[i.title,i.authors,i.source,i.abstract].join(' ').toLowerCase().includes(q));
+ its.sort(byDate);
+ return filters()+`<p class="status">${its.length} résultat${its.length>1?'s':''}</p>`+(its.length?`<div class="grid">${its.map(i=>card(i)).join('')}</div>`:'<p class="empty">Rien ne correspond à ces filtres.</p>')}
+
+function lib(){
+ const its=all().filter(i=>S.lib[i.id]).sort((a,b)=>(S.lib[b.id].at||'').localeCompare(S.lib[a.id].at||''));
+ return `<div class="rubh" style="padding-top:24px"><h2>Ma bibliothèque</h2><span class="note">${its.length} contenu${its.length>1?'s':''} gardé${its.length>1?'s':''} sur cet appareil</span></div>`+
+ (its.length?`<div class="grid">${its.map(i=>card(i)).join('')}</div>`:'<p class="empty">Clique sur « Garder » sous un papier pour le retrouver ici.</p>')}
+
+function sources(){
+ const mine=S.mySources.map(s=>({...s,perso:true}));
+ const col=l=>{const ss=[...S.sources,...mine].filter(s=>s.lang===l).sort((a,b)=>(a.name||'').localeCompare(b.name||''));
+  return `<div><div class="rubh"><h2>${l==='fr'?'Sources françaises':'Sources internationales (anglais)'}</h2><span class="note">${ss.length}</span></div>${ss.map(s=>`<div class="src"><a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener">${esc(s.name)}</a>${s.perso?`<span class="del" style="display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end"><button class="ic" data-prop="${esc(s.id)}">Proposer à la veille</button><button class="ic" data-del="${esc(s.id)}">Retirer</button></span>`:''}<p>${esc(s.kind||'')}${s.themes&&s.themes.length?' · '+s.themes.map(t=>esc(TL[t]||t)).join(', '):''}${s.perso?'<span class="badge">sur cet appareil</span>':''}</p></div>`).join('')||'<p class="empty">Aucune source.</p>'}</div>`};
+ return `<div class="cols">${col('fr')}${col('en')}</div><p class="note" style="padding-top:16px">Les sources ajoutées avec + restent sur cet appareil. « Proposer à la veille » copie la fiche de la source pour l'envoyer à Max, qui l'ajoute à la collecte du matin.</p>`}
+
+function trView(){
+ const native='Translator' in self;
+ return `<div id="src" class="tr"><div><h2 style="font-size:26px;margin-bottom:10px">Texte en anglais</h2><textarea id="trin" placeholder="Colle ici un abstract, un paragraphe d’article…">${esc(store.get('veille-trin',''))}</textarea>
+ <div class="foot" style="justify-content:flex-start;margin-top:10px;flex-wrap:wrap">${native?'<button class="btn" id="trgo">Traduire ici</button>':''}<a class="btn ${native?'ghost':''}" id="deepl" href="#" target="_blank" rel="noopener" style="text-decoration:none;display:inline-flex;align-items:center">Ouvrir dans DeepL</a></div>
+ <p class="note">${native?'« Traduire ici » utilise le traducteur intégré à Chrome, directement sur ton ordinateur : gratuit et privé, mais plus littéral. Pour un texte où chaque nuance compte, préfère DeepL.':'Ton navigateur n’a pas de traducteur intégré : DeepL s’ouvre avec le texte déjà collé. Les papiers de la veille ont déjà leur traduction soignée (icône Traduire).'}</p></div>
+ <div><h2 style="font-size:26px;margin-bottom:10px">Traduction</h2><div class="out" id="trout" aria-live="polite">${esc(S.trOut)}</div>
+ <div class="foot" style="justify-content:flex-start;margin-top:10px"><button class="btn ghost" id="trcopy">Copier</button></div></div></div>`}
+
+function render(){
+ document.querySelectorAll('#tabs button').forEach(b=>b.setAttribute('aria-current',String(b.dataset.v===S.view)));
+ $('#sub').innerHTML=subLine();
+ const v=S.view;
+ $('#view').innerHTML=v==='home'?home():v==='paper'||v==='article'?list(v):v==='lib'?lib():v==='sources'?sources():trView();
+ bind()}
+
+async function copy(text,btn,ok){try{await navigator.clipboard.writeText(text);btn.textContent=ok}catch(e){btn.textContent='Copie impossible'}}
+
+function bind(){
+ document.querySelectorAll('[data-th]').forEach(b=>b.onclick=()=>{S.q='';S.lang='';const th=b.dataset.th;go(all().some(i=>i.theme===th&&i.type==='paper')?'paper':'article',th)});
+ document.querySelectorAll('[data-a]').forEach(b=>b.onclick=()=>act(b.dataset.a,b.dataset.id));
+ document.querySelectorAll('[data-del]').forEach(b=>b.onclick=()=>{S.mySources=S.mySources.filter(s=>s.id!==b.dataset.del);store.set('veille-sources-perso',S.mySources);render()});
+ document.querySelectorAll('[data-prop]').forEach(b=>b.onclick=()=>{const s=S.mySources.find(x=>x.id===b.dataset.prop);if(!s)return;
+  copy(`Nouvelle source pour la veille pédagogique\nNom : ${s.name}\nURL : ${s.url}\nLangue : ${s.lang==='en'?'anglais':'français'}\nType : ${s.kind}\nThèmes : ${(s.themes||[]).map(t=>TL[t]).join(', ')||'non précisés'}`,b,'Copié, envoie-le à Max')});
+ const q=$('#q');if(q){q.oninput=()=>{S.q=q.value;clearTimeout(q._t);q._t=setTimeout(()=>{const p=q.selectionStart;render();const n=$('#q');n.focus();n.setSelectionRange(p,p)},250)};
+  $('#fth').onchange=e=>{S.theme=e.target.value;render()};$('#flang').onchange=e=>{S.lang=e.target.value;render()}}
+ const tin=$('#trin');if(tin){const upd=()=>{store.set('veille-trin',tin.value);$('#deepl').href='https://www.deepl.com/translator#en/fr/'+encodeURIComponent(tin.value.replace(/\//g,'\\/'))};tin.oninput=upd;upd();
+  const g=$('#trgo');if(g)g.onclick=translateHere;
+  $('#trcopy').onclick=e=>copy($('#trout').textContent,e.target,'Copié')}}
+
+function act(a,id){
+ const it=all().find(i=>i.id===id);if(!it)return;
+ if(a==='save'){if(S.lib[id])delete S.lib[id];else S.lib[id]={at:new Date().toISOString()};store.set('veille-lib',S.lib);render();return}
+ S.open[id]=S.open[id]===a?undefined:a;render()}
+
+async function translateHere(){
+ const t=$('#trin').value.trim();if(!t)return;const b=$('#trgo');b.disabled=true;const out=$('#trout');
+ try{const opts={sourceLanguage:'en',targetLanguage:'fr'};const av=await Translator.availability(opts);
+  if(av==='unavailable')throw new Error('indispo');
+  out.textContent=av==='available'?'Traduction…':'Téléchargement du modèle de traduction (une seule fois)…';
+  const tr=await Translator.create({...opts,monitor(m){m.addEventListener('downloadprogress',e=>{out.textContent='Téléchargement du modèle : '+Math.round(e.loaded*100)+' %'})}});
+  const parts=t.split(/\n{2,}/);const res=[];for(const p of parts)res.push(await tr.translate(p));
+  S.trOut=res.join('\n\n')}catch(e){S.trOut='La traduction intégrée n’est pas disponible ici. Utilise le bouton « Ouvrir dans DeepL ».'}
+ out.textContent=S.trOut;b.disabled=false}
+
+/* Ajout */
+const dlg=$('#dlg');let mode='source';
+$('#schecks').innerHTML=THEMES.map(t=>`<label><input type="checkbox" name="sth" value="${t.id}">${esc(t.label)}</label>`).join('');
+$('#ithemes').innerHTML=THEMES.map(t=>`<option value="${t.id}">${esc(t.label)}</option>`).join('');
+document.querySelectorAll('[data-m]').forEach(b=>b.onclick=()=>{mode=b.dataset.m;document.querySelectorAll('[data-m]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));$('#fsource').hidden=mode!=='source';$('#fitem').hidden=mode!=='item'});
+$('#fab').onclick=()=>{$('#fstat').textContent='';dlg.showModal()};
+$('#cancel').onclick=()=>dlg.close();
+const slug=s=>(s||'').toLowerCase().normalize('NFD').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,60)||'x';
+$('#addf').onsubmit=e=>{e.preventDefault();const f=e.target,st=$('#fstat');
+ if(mode==='source'){const name=f.sname.value.trim(),url=f.surl.value.trim();if(!name||!/^https?:\/\//.test(url)){st.textContent='Indique un nom et une adresse commençant par https://';return}
+  S.mySources=[...S.mySources.filter(s=>s.id!=='p-'+slug(name)),{id:'p-'+slug(name),name,url,lang:f.slang.value,kind:f.skind.value,themes:[...f.querySelectorAll('[name=sth]:checked')].map(x=>x.value)}];
+  store.set('veille-sources-perso',S.mySources)}
+ else{const title=f.ititle.value.trim(),url=f.iurl.value.trim();if(!title||!/^https?:\/\//.test(url)){st.textContent='Indique un titre et une adresse commençant par https://';return}
+  S.mine=[...S.mine,{id:'p-'+slug(title),title,url,type:f.itype.value,lang:f.ilang.value,theme:f.itheme.value,source:f.isource.value.trim()||new URL(url).hostname,abstract:f.iabs.value.trim(),date:new Date().toISOString().slice(0,10),addedAt:new Date().toISOString(),by:'perso'}];
+  store.set('veille-items-perso',S.mine)}
+ f.reset();dlg.close();render()};
+
+render();
+
+/* Données */
+(async()=>{
+ try{
+  const [v,s]=await Promise.all([fetch('veille.json',{cache:'no-cache'}),fetch('sources.json',{cache:'no-cache'})]);
+  if(!v.ok)throw new Error('veille');
+  const d=await v.json();S.items=d.items||[];S.meta={lastRun:d.lastRun};
+  if(s.ok)S.sources=(await s.json()).sources||[];
+  S.offline=v.headers.get('x-veille-cache')==='1';
+  S.loaded=true}catch(e){S.err='Impossible de charger la veille. Vérifie ta connexion puis recharge la page.'}
+ render()})();
+
+if('serviceWorker' in navigator)addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));
+}
+</script>
+</body>
+</html>

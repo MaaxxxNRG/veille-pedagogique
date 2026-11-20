@@ -1,0 +1,377 @@
+{
+  "sources": [
+    {
+      "id": "the-conversation-fr",
+      "name": "The Conversation France – Éducation",
+      "url": "https://theconversation.com/fr/education",
+      "lang": "fr",
+      "kind": "Média",
+      "themes": [
+        "cognition",
+        "ia",
+        "politiques"
+      ]
+    },
+    {
+      "id": "cafe-pedagogique",
+      "name": "Le Café pédagogique",
+      "url": "https://www.cafepedagogique.net",
+      "lang": "fr",
+      "kind": "Média",
+      "themes": [
+        "evaluation",
+        "politiques",
+        "ia"
+      ]
+    },
+    {
+      "id": "cahiers-pedagogiques",
+      "name": "Cahiers pédagogiques",
+      "url": "https://www.cahiers-pedagogiques.com",
+      "lang": "fr",
+      "kind": "Média",
+      "themes": [
+        "evaluation",
+        "cognition"
+      ]
+    },
+    {
+      "id": "thot-cursus",
+      "name": "Thot Cursus",
+      "url": "https://cursus.edu",
+      "lang": "fr",
+      "kind": "Média",
+      "themes": [
+        "adultes",
+        "ia"
+      ]
+    },
+    {
+      "id": "csen",
+      "name": "Conseil scientifique de l'éducation nationale (CSEN)",
+      "url": "https://www.csen.education.gouv.fr",
+      "lang": "fr",
+      "kind": "Institution",
+      "themes": [
+        "cognition",
+        "ia",
+        "politiques"
+      ]
+    },
+    {
+      "id": "cnesco",
+      "name": "Cnesco (Cnam)",
+      "url": "https://www.cnesco.fr",
+      "lang": "fr",
+      "kind": "Institution",
+      "themes": [
+        "evaluation",
+        "politiques"
+      ]
+    },
+    {
+      "id": "ife-veille",
+      "name": "IFÉ – Veille et analyses (ENS de Lyon)",
+      "url": "https://veille-et-analyses.ens-lyon.fr",
+      "lang": "fr",
+      "kind": "Institution",
+      "themes": [
+        "politiques",
+        "evaluation"
+      ]
+    },
+    {
+      "id": "depp",
+      "name": "DEPP – Ministère de l'Éducation nationale",
+      "url": "https://www.education.gouv.fr/les-publications-de-la-depp",
+      "lang": "fr",
+      "kind": "Institution",
+      "themes": [
+        "evaluation",
+        "politiques"
+      ]
+    },
+    {
+      "id": "sticef",
+      "name": "Revue STICEF",
+      "url": "https://sticef.org",
+      "lang": "fr",
+      "kind": "Revue scientifique",
+      "themes": [
+        "ia",
+        "charge"
+      ]
+    },
+    {
+      "id": "dms",
+      "name": "Distances et médiations des savoirs",
+      "url": "https://journals.openedition.org/dms",
+      "lang": "fr",
+      "kind": "Revue scientifique",
+      "themes": [
+        "adultes",
+        "charge"
+      ]
+    },
+    {
+      "id": "education-didactique",
+      "name": "Éducation & didactique",
+      "url": "https://journals.openedition.org/educationdidactique",
+      "lang": "fr",
+      "kind": "Revue scientifique",
+      "themes": [
+        "evaluation",
+        "cognition"
+      ]
+    },
+    {
+      "id": "centre-inffo",
+      "name": "Centre Inffo",
+      "url": "https://www.centre-inffo.fr",
+      "lang": "fr",
+      "kind": "Institution",
+      "themes": [
+        "adultes"
+      ]
+    },
+    {
+      "id": "campus-innovation",
+      "name": "Campus de l'innovation pédagogique",
+      "url": "https://ent2d.ac-bordeaux.fr/disciplines/sti-college/",
+      "lang": "fr",
+      "kind": "Institution",
+      "themes": [
+        "evaluation",
+        "adultes"
+      ]
+    },
+    {
+      "id": "eduscol",
+      "name": "Eduscol – Cahiers EduNum",
+      "url": "https://eduscol.education.gouv.fr",
+      "lang": "fr",
+      "kind": "Institution",
+      "themes": [
+        "ia"
+      ]
+    },
+    {
+      "id": "computers-education",
+      "name": "Computers & Education",
+      "url": "https://www.sciencedirect.com/journal/computers-and-education",
+      "lang": "en",
+      "kind": "Revue scientifique",
+      "themes": [
+        "ia",
+        "charge"
+      ]
+    },
+    {
+      "id": "edpsych-review",
+      "name": "Educational Psychology Review",
+      "url": "https://link.springer.com/journal/10648",
+      "lang": "en",
+      "kind": "Revue scientifique",
+      "themes": [
+        "cognition",
+        "charge"
+      ]
+    },
+    {
+      "id": "learning-instruction",
+      "name": "Learning and Instruction",
+      "url": "https://www.sciencedirect.com/journal/learning-and-instruction",
+      "lang": "en",
+      "kind": "Revue scientifique",
+      "themes": [
+        "cognition",
+        "charge",
+        "evaluation"
+      ]
+    },
+    {
+      "id": "bjet",
+      "name": "British Journal of Educational Technology",
+      "url": "https://bera-journals.onlinelibrary.wiley.com/journal/14678535",
+      "lang": "en",
+      "kind": "Revue scientifique",
+      "themes": [
+        "ia",
+        "adultes"
+      ]
+    },
+    {
+      "id": "jcal",
+      "name": "Journal of Computer Assisted Learning",
+      "url": "https://onlinelibrary.wiley.com/journal/13652729",
+      "lang": "en",
+      "kind": "Revue scientifique",
+      "themes": [
+        "charge",
+        "ia"
+      ]
+    },
+    {
+      "id": "cog-research",
+      "name": "Cognitive Research: Principles and Implications",
+      "url": "https://cognitiveresearchjournal.springeropen.com",
+      "lang": "en",
+      "kind": "Revue scientifique",
+      "themes": [
+        "cognition",
+        "charge"
+      ]
+    },
+    {
+      "id": "arxiv-cy",
+      "name": "arXiv – Computers and Society (cs.CY)",
+      "url": "https://arxiv.org/list/cs.CY/recent",
+      "lang": "en",
+      "kind": "Base de données",
+      "themes": [
+        "ia"
+      ]
+    },
+    {
+      "id": "edworkingpapers",
+      "name": "EdWorkingPapers (Annenberg Institute)",
+      "url": "https://edworkingpapers.com",
+      "lang": "en",
+      "kind": "Base de données",
+      "themes": [
+        "ia",
+        "politiques"
+      ]
+    },
+    {
+      "id": "eric",
+      "name": "ERIC – Education Resources Information Center",
+      "url": "https://eric.ed.gov",
+      "lang": "en",
+      "kind": "Base de données",
+      "themes": [
+        "cognition",
+        "evaluation",
+        "adultes"
+      ]
+    },
+    {
+      "id": "stanford-scale",
+      "name": "Stanford SCALE – AI Hub for Education",
+      "url": "https://scale.stanford.edu",
+      "lang": "en",
+      "kind": "Institution",
+      "themes": [
+        "ia"
+      ]
+    },
+    {
+      "id": "oecd-edu",
+      "name": "OECD – Education and Skills",
+      "url": "https://www.oecd.org/en/topics/education.html",
+      "lang": "en",
+      "kind": "Institution",
+      "themes": [
+        "politiques",
+        "ia"
+      ]
+    },
+    {
+      "id": "brookings",
+      "name": "Brookings – Center for Universal Education",
+      "url": "https://www.brookings.edu/centers/center-for-universal-education/",
+      "lang": "en",
+      "kind": "Institution",
+      "themes": [
+        "politiques",
+        "ia"
+      ]
+    },
+    {
+      "id": "hechinger",
+      "name": "The Hechinger Report",
+      "url": "https://hechingerreport.org",
+      "lang": "en",
+      "kind": "Média",
+      "themes": [
+        "politiques",
+        "evaluation",
+        "ia"
+      ]
+    },
+    {
+      "id": "edsurge",
+      "name": "EdSurge",
+      "url": "https://www.edsurge.com",
+      "lang": "en",
+      "kind": "Média",
+      "themes": [
+        "ia",
+        "adultes"
+      ]
+    },
+    {
+      "id": "edweek",
+      "name": "Education Week",
+      "url": "https://www.edweek.org",
+      "lang": "en",
+      "kind": "Média",
+      "themes": [
+        "ia",
+        "evaluation"
+      ]
+    },
+    {
+      "id": "elearning-industry",
+      "name": "eLearning Industry",
+      "url": "https://elearningindustry.com",
+      "lang": "en",
+      "kind": "Média",
+      "themes": [
+        "adultes",
+        "ia"
+      ]
+    },
+    {
+      "id": "ibstpi",
+      "name": "IBSTPI",
+      "url": "https://ibstpi.org",
+      "lang": "en",
+      "kind": "Institution",
+      "themes": [
+        "adultes"
+      ]
+    },
+    {
+      "id": "learning-scientists",
+      "name": "The Learning Scientists",
+      "url": "https://www.learningscientists.org",
+      "lang": "en",
+      "kind": "Blog",
+      "themes": [
+        "cognition"
+      ]
+    },
+    {
+      "id": "de-bruyckere",
+      "name": "Pedro De Bruyckere – From experience to meaning",
+      "url": "https://theeconomyofmeaning.com",
+      "lang": "en",
+      "kind": "Blog",
+      "themes": [
+        "cognition",
+        "evaluation"
+      ]
+    },
+    {
+      "id": "donald-taylor",
+      "name": "Donald H Taylor – L&D Global Sentiment Survey",
+      "url": "https://donaldhtaylor.co.uk",
+      "lang": "en",
+      "kind": "Blog",
+      "themes": [
+        "adultes"
+      ]
+    }
+  ]
+}

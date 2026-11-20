@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2433e6"/>
+      <stop offset="1" stop-color="#1420a8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="256" cy="268" r="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd76a" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#ffd76a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe08a"/>
+      <stop offset="1" stop-color="#ffb23e"/>
+    </linearGradient>
+    <linearGradient id="pageL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e3e6fb"/>
+    </linearGradient>
+    <linearGradient id="pageR" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e3e6fb"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#sky)"/>
+  <circle cx="256" cy="268" r="190" fill="url(#glow)"/>
+  <!-- rayons -->
+  <g stroke="#ffd76a" stroke-width="16" stroke-linecap="round" opacity=".95">
+    <line x1="256" y1="96" x2="256" y2="130"/>
+    <line x1="150" y1="138" x2="172" y2="164"/>
+    <line x1="362" y1="138" x2="340" y2="164"/>
+    <line x1="98" y1="226" x2="132" y2="234"/>
+    <line x1="414" y1="226" x2="380" y2="234"/>
+  </g>
+  <!-- soleil -->
+  <circle cx="256" cy="262" r="86" fill="url(#sun)"/>
+  <!-- livre ouvert -->
+  <path d="M256 300 C214 272 158 266 104 280 L104 404 C158 392 214 396 256 424 Z" fill="url(#pageL)"/>
+  <path d="M256 300 C298 272 354 266 408 280 L408 404 C354 392 298 396 256 424 Z" fill="url(#pageR)"/>
+  <path d="M256 300 L256 424" stroke="#1420a8" stroke-width="6" stroke-linecap="round" opacity=".35"/>
+  <!-- lignes de texte -->
+  <g stroke="#1d2bd8" stroke-width="9" stroke-linecap="round" opacity=".55" fill="none">
+    <path d="M136 314 C170 306 204 308 230 318"/>
+    <path d="M136 346 C170 338 204 340 230 350"/>
+    <path d="M136 378 C162 371 186 372 206 378"/>
+    <path d="M282 318 C308 308 342 306 376 314"/>
+    <path d="M282 350 C308 340 342 338 376 346"/>
+  </g>
+  <!-- étincelle -->
+  <path d="M398 104 l8 22 22 8 -22 8 -8 22 -8 -22 -22 -8 22 -8z" fill="#ffffff"/>
+</svg>
