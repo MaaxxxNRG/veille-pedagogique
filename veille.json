@@ -1,6 +1,6 @@
 {
-  "lastRun": "2026-11-20T18:40:00+01:00",
-  "note": "Collecte initiale : publications du 20 septembre au 20 novembre 2026",
+  "lastRun": "2026-11-28T11:28:34+01:00",
+  "note": "Semaine du 20 au 28 novembre 2026 : 14 nouveautés",
   "items": [
     {
       "id": "contractor-reyes-2026",
@@ -653,6 +653,328 @@
         "p": "Le numéro 606 est une bonne banque de pratiques concrètes ; le webinaire est passé, mais le numéro reste disponible."
       },
       "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "farooq-2026-standard-anchored",
+      "type": "paper",
+      "lang": "en",
+      "theme": "ia",
+      "date": "2026-11-20",
+      "title": "Standard-Anchored Delegation in Teachers' Use of Generative AI",
+      "authors": "Muhammad Saleh Farooq, Muhammad Ahmad Khan, Muhammad Jon Raza",
+      "source": "arXiv (preprint, cs.HC / cs.CY)",
+      "url": "https://arxiv.org/abs/2611.27533",
+      "abstract": "A qualitative mixed-methods study in Punjab, Pakistan (13 teachers, 4 administrators, 1 student) mapping which of 12 teaching tasks teachers hand to generative AI. Nine teachers accepted AI help for lesson planning, none let it write learning objectives, and 11 refused to use it for emotional support; AI marking was accepted only when the tool was given a rubric. The authors describe this as delegation anchored on an external standard that lets teachers check the output.",
+      "resume": {
+        "q": "Comment des enseignants décident-ils quelles tâches confier à l'IA générative tout en restant responsables de ce que reçoivent les élèves ?",
+        "m": "Méthodes mixtes à dominante qualitative au Pendjab (Pakistan) : entretiens avec 13 enseignants (public, privé, ONG, professionnel), 4 responsables et 1 élève ; codage de leur position sur 12 tâches pédagogiques.",
+        "r": "9 enseignants acceptent l'aide de l'IA pour préparer leurs cours, aucun ne lui confie la rédaction des objectifs d'apprentissage, 11 refusent de l'utiliser pour encourager ou soutenir les élèves. La correction par IA n'est acceptée que si l'outil reçoit une grille ou des critères. Vérifier les sorties demande du temps et des connaissances disciplinaires.",
+        "p": "Quand on forme des formateurs à l'IA, partir de leurs référentiels (grilles, programmes) : ils délèguent plus volontiers ce qu'ils peuvent contrôler par rapport à une norme explicite, et gardent la main sur les objectifs et la relation."
+      },
+      "vulga": "Quelles tâches les enseignants acceptent-ils de confier à une IA ? Ceux interrogés ici délèguent surtout ce qu'ils peuvent vérifier avec un « étalon » extérieur : un manuel, une grille de correction. C'est comme confier sa comptabilité à quelqu'un, mais seulement si on a le relevé bancaire pour contrôler. En revanche, ils gardent pour eux les objectifs d'apprentissage et le soutien moral des élèves. En pratique : fournir à l'IA vos critères d'évaluation avant de lui demander de corriger, et prévoir du temps pour relire. Limite : petit échantillon qualitatif dans une seule région, preprint non relu par des pairs.",
+      "trad": {
+        "titre": "Une délégation ancrée sur des normes dans l'usage de l'IA générative par les enseignants",
+        "resume": "Étude qualitative à méthodes mixtes menée au Pendjab (Pakistan) auprès de 13 enseignants, 4 responsables et 1 élève, qui cartographie lesquelles de 12 tâches d'enseignement les enseignants confient à l'IA générative. Neuf enseignants acceptaient l'aide de l'IA pour préparer leurs cours, aucun ne la laissait rédiger les objectifs d'apprentissage, et 11 refusaient de l'utiliser pour le soutien émotionnel ; la correction par IA n'était acceptée que si l'outil recevait une grille d'évaluation (rubric). Les auteurs décrivent ce comportement comme une délégation ancrée sur une norme externe qui permet aux enseignants de vérifier le résultat."
+      },
+      "addedAt": "2026-11-28T11:28:34+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "hahn-2026-ai-worked-examples-physics",
+      "type": "paper",
+      "lang": "en",
+      "theme": "ia",
+      "date": "2026-11-21",
+      "title": "AI-generated support, worked examples, and script-based learning in undergraduate physics: A comparative study",
+      "authors": "Larissa Hahn, Marie Aylin Falkenberg, Marten Hogelücht, Pascal Klein",
+      "source": "arXiv (preprint, physics.ed-ph)",
+      "url": "https://arxiv.org/abs/2611.28951",
+      "abstract": "Nine recitation groups of an undergraduate electrodynamics course (86 students) were randomly assigned to a chatbot-delivered worked example, a matched static worked example, or a lecture script for a Gauss's law problem. Concept-test accuracy and self-efficacy rose in all three conditions with no significant group differences; at four weeks, in a smaller sample, the static worked example outperformed the script. Students rated the chatbot as more usable than the script, yet most later chose the static worked example on their own.",
+      "resume": {
+        "q": "Un exemple résolu présenté par un chatbot (« exemple résolu intelligent ») fait-il mieux apprendre qu'un exemple résolu statique ou qu'un polycopié de cours ?",
+        "m": "Neuf groupes de TD d'un cours d'électrodynamique (licence) répartis au hasard entre trois conditions ; 86 étudiants travaillent seuls sur un problème de théorème de Gauss. Test conceptuel et sentiment d'efficacité personnelle avant/après, puis suivi à quatre semaines.",
+        "r": "Progrès dans les trois conditions, sans différence significative entre elles. À quatre semaines, sur un échantillon réduit, l'exemple résolu statique dépasse le polycopié ; les deux formats d'exemple ne diffèrent pas. Le chatbot est jugé plus facile à utiliser que le polycopié, mais pas plus utile, et la plupart des étudiants choisissent ensuite spontanément l'exemple statique.",
+        "p": "Un exemple résolu bien construit reste un excellent support ; le rendre conversationnel n'apporte pas de gain clair. Ne pas confondre la satisfaction des apprenants avec l'efficacité ou avec l'usage réel."
+      },
+      "vulga": "Un exemple corrigé pas à pas devient-il plus efficace quand un chatbot le présente en dialoguant ? Dans ce cours de physique, non : les étudiants ont autant progressé avec une simple fiche d'exemple résolu (un problème entièrement rédigé, étape par étape) qu'avec la version chatbot. C'est comme une recette de cuisine : qu'elle soit lue par un assistant vocal ou imprimée, c'est la qualité des étapes qui compte. Les étudiants trouvaient le chatbot agréable, mais revenaient d'eux-mêmes à la fiche. Limite : petit échantillon, beaucoup d'abandons au suivi, preprint non relu par des pairs.",
+      "trad": {
+        "titre": "Aide générée par IA, exemples résolus et apprentissage sur polycopié en physique de licence : une étude comparative",
+        "resume": "Neuf groupes de travaux dirigés d'un cours d'électrodynamique de licence (86 étudiants) ont été répartis au hasard entre un exemple résolu (worked example) présenté par un chatbot, un exemple résolu statique équivalent ou un polycopié de cours, pour un problème portant sur le théorème de Gauss. La réussite au test conceptuel et le sentiment d'efficacité personnelle (self-efficacy) ont augmenté dans les trois conditions, sans différence significative entre les groupes ; à quatre semaines, sur un échantillon plus réduit, l'exemple résolu statique a fait mieux que le polycopié. Les étudiants ont jugé le chatbot plus facile à utiliser que le polycopié, mais la plupart ont ensuite choisi d'eux-mêmes l'exemple résolu statique."
+      },
+      "addedAt": "2026-11-28T11:28:34+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "edweek-2026-teacher-ai-plateau",
+      "type": "article",
+      "lang": "en",
+      "theme": "ia",
+      "date": "2026-11-25",
+      "title": "Why Teacher AI Use Has Plateaued, and What Could Come Next",
+      "authors": "Lauraine Langreo",
+      "source": "Education Week",
+      "url": "https://www.edweek.org/technology/why-teacher-ai-use-has-plateaued-and-what-could-come-next/2026/11",
+      "abstract": "An EdWeek Research Center survey of 590 US teachers (August–October 2026) finds that 62% use AI in class at least a little, almost unchanged from 61% in 2025 after a jump from 34% in 2023. 64% have attended at least one professional-development session on AI. A separate RAND survey reports a rise in AI use for math teaching from 45% to 74% between 2025 and 2026.",
+      "resume": {
+        "q": "L'usage de l'IA par les enseignants américains continue-t-il de progresser ?",
+        "m": "Article de presse fondé sur une enquête de l'EdWeek Research Center auprès de 590 enseignants (août-octobre 2026), complétée par une enquête RAND et des avis d'experts.",
+        "r": "62 % des enseignants utilisent l'IA en classe au moins un peu, contre 61 % en 2025 et 34 % en 2023 : la progression marque le pas. 64 % ont suivi au moins une formation sur l'IA. Selon RAND, l'usage de l'IA pour enseigner les maths passe de 45 % à 74 % entre 2025 et 2026. Données déclaratives, sans marge d'erreur publiée.",
+        "p": "Après la phase de découverte, l'enjeu devient la qualité des usages : de quoi justifier des formations ciblées par discipline et par tâche plutôt que des initiations générales."
+      },
+      "trad": {
+        "titre": "Pourquoi l'usage de l'IA par les enseignants plafonne, et ce qui pourrait suivre",
+        "resume": "Une enquête de l'EdWeek Research Center menée auprès de 590 enseignants américains (août-octobre 2026) montre que 62 % utilisent l'IA en classe au moins un peu, un chiffre presque inchangé par rapport aux 61 % de 2025, après un bond depuis 34 % en 2023. 64 % ont suivi au moins une session de formation continue (professional development) sur l'IA. Une enquête distincte de RAND indique une hausse de l'usage de l'IA pour l'enseignement des mathématiques, de 45 % à 74 % entre 2025 et 2026."
+      },
+      "addedAt": "2026-11-28T11:28:34+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "ihe-2026-ai-witch-hunt",
+      "type": "article",
+      "lang": "en",
+      "theme": "evaluation",
+      "date": "2026-11-24",
+      "title": "What's Really Fueling Higher Ed's AI \"Witch Hunt\"?",
+      "authors": "Kathryn Palmer",
+      "source": "Inside Higher Ed",
+      "url": "https://www.insidehighered.com/news/faculty/2026/11/24/whats-really-fueling-higher-eds-ai-witch-hunt",
+      "abstract": "This reported analysis examines the backlash against academics suspected of AI-assisted writing, at a time when universities have not agreed where acceptable use ends and misconduct begins. It reviews recent cases (an op-ed rated 33% AI-generated by a detector, papers removed from SSRN) and institutional responses such as AI-free writing courses. Experts quoted call for clear guidelines, distinct standards for faculty and students, and caution about unreliable AI detectors.",
+      "resume": {
+        "q": "Pourquoi l'usage de l'IA par des universitaires déclenche-t-il de telles polémiques ?",
+        "m": "Article d'analyse appuyé sur des affaires récentes, des enquêtes (Digital Education Council, College Board) et des entretiens d'experts ; chiffres rapportés de seconde main.",
+        "r": "Faute de règles partagées, chaque cas devient une affaire : tribune jugée à 33 % générée par IA par un détecteur, articles retirés de SSRN, cours d'écriture sans IA imposé à Chicago, étudiants qui réclament des comptes. Les experts insistent sur des lignes directrices claires et sur le manque de fiabilité des détecteurs.",
+        "p": "Rappel utile pour toute politique d'évaluation : définir explicitement les usages autorisés de l'IA (pour les apprenants comme pour les formateurs) plutôt que de s'en remettre à des détecteurs."
+      },
+      "trad": {
+        "titre": "Qu'est-ce qui alimente vraiment la « chasse aux sorcières » de l'IA dans l'enseignement supérieur ?",
+        "resume": "Cette analyse journalistique examine la vague de critiques visant des universitaires soupçonnés d'écrire avec l'aide de l'IA, alors que les universités ne se sont pas accordées sur la frontière entre usage acceptable et fraude. Elle passe en revue des affaires récentes (une tribune évaluée à 33 % générée par IA par un détecteur, des articles retirés de SSRN) et des réponses institutionnelles comme des cours d'écriture sans IA. Les experts cités appellent à des lignes directrices claires, à des normes distinctes pour les enseignants et les étudiants, et à la prudence face à des détecteurs d'IA peu fiables."
+      },
+      "addedAt": "2026-11-28T11:28:34+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "edtechactu-2026-gostudent-ia",
+      "type": "article",
+      "lang": "fr",
+      "theme": "evaluation",
+      "date": "2026-11-26",
+      "title": "IA : l'école française peine à préparer les élèves aux défis de demain, révèle une étude",
+      "authors": "Nejiba Belkadi",
+      "source": "EdTech Actu",
+      "url": "https://edtechactu.com/evaluation/ia-lecole-francaise-peine-a-preparer-les-eleves-aux-defis-de-demain-revele-une-etude/",
+      "abstract": "L'article présente l'enquête 2026 de GoStudent (entreprise de soutien scolaire) menée auprès de 3 001 parents, autant d'enfants de 8 à 16 ans et 300 enseignants. 70 % des enseignants français interrogés doutent que leurs élèves sachent rédiger une dissertation sans IA et privilégient projets sur plusieurs semaines (46 %) et oraux ou débats (38 %) ; 36 % seulement déclarent avoir été formés à l'IA. Source commerciale, non évaluée par des pairs.",
+      "resume": {
+        "q": "Comment enseignants et parents français perçoivent-ils la préparation des élèves à l'IA, et quelles conséquences pour l'évaluation ?",
+        "m": "Article de presse spécialisée présentant une enquête commerciale de GoStudent (juin-juillet 2026 ; 3 001 parents, 3 001 enfants de 8 à 16 ans, 300 enseignants ; répartition des enseignants par pays non précisée).",
+        "r": "70 % des enseignants français doutent qu'un élève puisse rédiger une dissertation sans IA ; alternatives préférées : projets sur plusieurs semaines (46 %), oraux et débats (38 %), défis collaboratifs (32 %). 36 % se disent formés à l'IA (74 % en Espagne) et 84 % des non-formés le souhaitent. 72 % constatent une baisse de concentration des élèves.",
+        "p": "Signal de terrain (à prendre avec prudence vu la source) en faveur d'évaluations où le processus est visible : projets suivis, oraux, productions en temps réel."
+      },
+      "addedAt": "2026-11-28T11:28:34+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "li-2026-value-directed-feedback",
+      "type": "paper",
+      "lang": "en",
+      "theme": "cognition",
+      "date": "2026-11-27",
+      "title": "Goal-oriented feedback regulates value-directed remembering in adolescents and young adults",
+      "authors": "Qiong Li, Weihai Tang, Ying Wang, Xiping Liu",
+      "source": "Cognitive Research: Principles and Implications (2026)",
+      "url": "https://doi.org/10.1186/s41235-026-00770-6",
+      "abstract": "This study tested whether the type of feedback shapes value-directed remembering, the ability to prioritise high-value information when memory is limited. 257 adolescents (13–15) and young adults (19–21) studied lists of point-valued items and received feedback either on the value they scored or on how many items they recalled. Value-score feedback increased selectivity for high-value items, young adults were more selective than adolescents, and adolescents recalled more with value-score feedback.",
+      "resume": {
+        "q": "Le type de feedback reçu aide-t-il à mieux retenir ce qui compte le plus (mémorisation dirigée par la valeur), et l'effet diffère-t-il entre adolescents et jeunes adultes ?",
+        "m": "257 participants (13-15 ans et 19-21 ans) apprennent des listes d'items associés à des points, avec un feedback soit sur le score de valeur obtenu, soit sur le nombre d'items rappelés ; rappel libre puis test de reconnaissance.",
+        "r": "Le feedback centré sur la valeur augmente la sélectivité pour les items importants ; les jeunes adultes sont plus sélectifs que les adolescents, et la sélectivité progresse au fil des listes. Les adolescents rappellent davantage avec ce feedback ; chez les jeunes adultes la différence n'est pas significative. Tailles d'effet : non précisé dans le résumé disponible.",
+        "p": "Formuler le feedback en termes de priorités (« tu as retenu l'essentiel ? ») plutôt qu'en quantité (« combien as-tu retenu ? ») pourrait aider les apprenants à se concentrer sur les notions clés."
+      },
+      "vulga": "Quand on ne peut pas tout retenir, arrive-t-on à garder l'essentiel ? Les chercheurs ont donné des listes de mots « qui valent des points » à des adolescents et à de jeunes adultes. Ceux qui recevaient un retour sur les points gagnés, plutôt que sur le nombre de mots retenus, se concentraient mieux sur les mots les plus précieux. C'est comme faire ses courses avec un petit budget : savoir ce que vaut chaque article aide à remplir le panier intelligemment. En pratique, un feedback qui rappelle les priorités pourrait aider à retenir l'important. Limite : tâche de laboratoire avec des listes de mots, étude non préenregistrée.",
+      "trad": {
+        "titre": "Un feedback orienté vers le but régule la mémorisation dirigée par la valeur chez les adolescents et les jeunes adultes",
+        "resume": "Cette étude a testé si le type de feedback influence la mémorisation dirigée par la valeur (value-directed remembering), c'est-à-dire la capacité à donner la priorité aux informations de grande valeur quand la mémoire est limitée. 257 adolescents (13-15 ans) et jeunes adultes (19-21 ans) ont étudié des listes d'items associés à des points et ont reçu un feedback portant soit sur la valeur obtenue, soit sur le nombre d'items rappelés. Le feedback sur le score de valeur a augmenté la sélectivité pour les items de grande valeur, les jeunes adultes se sont montrés plus sélectifs que les adolescents, et les adolescents ont rappelé davantage d'items avec le feedback sur la valeur."
+      },
+      "addedAt": "2026-11-28T11:28:34+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "jafari-2026-cognitive-scars-war",
+      "type": "paper",
+      "lang": "en",
+      "theme": "cognition",
+      "date": "2026-11-28",
+      "title": "Cognitive scars of war: undergraduate cognition and academic performance in the 2025 Iran-Israel conflict",
+      "authors": "Esmaeil Jafari",
+      "source": "npj Science of Learning (2026)",
+      "url": "https://doi.org/10.1038/s41539-026-00464-0",
+      "abstract": "Using baseline data collected two months before the 12-day 2025 Iran-Israel war, this difference-in-differences study compares 138 exposed students in Tehran with 232 controls elsewhere. Exposure was associated with large declines in working memory (d = 0.92), sustained attention (d = 1.18) and metacognitive regulation (d = 0.66), and the working-memory decline best explained lower end-of-term exam scores. Six months later working memory had partly recovered but remained below controls (d = 0.34), while metacognitive regulation had barely recovered.",
+      "resume": {
+        "q": "Comment l'exposition à la guerre affecte-t-elle la cognition des étudiants et leurs résultats ?",
+        "m": "Expérience naturelle : données recueillies deux mois avant la guerre de 12 jours de 2025, puis comparaison en double différence entre 138 étudiants exposés (universités de Téhéran) et 232 témoins hors de Téhéran.",
+        "r": "Baisse de la mémoire de travail (d = 0,92), de l'attention soutenue (d = 1,18) et de la régulation métacognitive (d = 0,66). La baisse de mémoire de travail est le principal médiateur de la chute des notes d'examen. Six mois après, la mémoire de travail reste sous les témoins (d = 0,34) et la métacognition a peu récupéré (d = 0,43).",
+        "p": "Après un choc (crise, événement traumatique, forte inquiétude), prévoir d'alléger la charge en mémoire de travail et de soutenir explicitement la planification et l'autorégulation des apprenants, sur plusieurs mois."
+      },
+      "vulga": "Que devient la capacité à apprendre après un choc collectif comme une guerre ? Des étudiants iraniens testés juste avant la guerre de 2025 ont été comparés après coup selon qu'ils vivaient ou non à Téhéran. Chez les plus exposés, la mémoire de travail (le « bloc-notes » mental qui garde quelques infos le temps de les utiliser) et l'attention ont nettement baissé, tout comme la capacité à piloter son propre travail, et les notes ont suivi. C'est comme travailler avec un ordinateur qui fait tourner une alarme en fond. En pratique : alléger et structurer davantage après une crise. Limite : expérience naturelle, d'autres facteurs ne peuvent être exclus.",
+      "trad": {
+        "titre": "Les cicatrices cognitives de la guerre : cognition et performance académique d'étudiants de licence pendant le conflit Iran-Israël de 2025",
+        "resume": "À partir de données de référence recueillies deux mois avant la guerre de 12 jours entre l'Iran et Israël en 2025, cette étude en double différence (difference-in-differences) compare 138 étudiants exposés à Téhéran à 232 témoins ailleurs. L'exposition a été associée à de fortes baisses de la mémoire de travail (working memory, d = 0,92), de l'attention soutenue (d = 1,18) et de la régulation métacognitive (d = 0,66), et la baisse de mémoire de travail expliquait le mieux la baisse des notes aux examens de fin de semestre. Six mois plus tard, la mémoire de travail s'était en partie rétablie mais restait inférieure à celle des témoins (d = 0,34), tandis que la régulation métacognitive s'était à peine rétablie."
+      },
+      "addedAt": "2026-11-28T11:28:34+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "learningscientists-2026-thankful-forgetting",
+      "type": "article",
+      "lang": "en",
+      "theme": "cognition",
+      "date": "2026-11-26",
+      "title": "This Thanksgiving, Be Thankful for Forgetting",
+      "authors": "Megan Sumeracki",
+      "source": "The Learning Scientists (blog)",
+      "url": "https://www.learningscientists.org/blog/2026/11/26",
+      "abstract": "This practice-oriented post argues that a break before exams can help learning, because retrieving material once it has partly faded strengthens memory. Drawing on the forgetting curve, research on distributed practice and desirable difficulties, it recommends starting the first class after the break with short low-stakes retrieval and trying to recall before rereading notes. It warns that material forgotten completely must be relearned.",
+      "resume": {
+        "q": "Une pause (vacances) avant les examens nuit-elle à l'apprentissage ?",
+        "m": "Billet de vulgarisation d'une chercheuse en psychologie cognitive, appuyé sur la courbe de l'oubli d'Ebbinghaus, la synthèse de Cepeda et al. (2006) sur la pratique espacée et les « difficultés désirables » de Bjork & Bjork (2011).",
+        "r": "Un oubli partiel rend la récupération plus exigeante, donc plus bénéfique pour la mémoire ; repos et sommeil aident à consolider. Mais ce qui est complètement oublié doit être réappris. Conseils : quelques minutes de rappel à faible enjeu au retour, essayer de se souvenir avant de relire.",
+        "p": "Démarrer chaque reprise de session (après une pause, un week-end, une intersession) par un court rappel non noté, et s'en servir pour cibler les révisions."
+      },
+      "trad": {
+        "titre": "Pour Thanksgiving, soyez reconnaissants d'oublier",
+        "resume": "Ce billet orienté vers la pratique soutient qu'une pause avant les examens peut aider l'apprentissage, car récupérer en mémoire une information en partie oubliée renforce le souvenir. S'appuyant sur la courbe de l'oubli, sur les recherches sur la pratique distribuée (distributed practice) et sur les difficultés désirables (desirable difficulties), il recommande de commencer le premier cours après la pause par un bref exercice de récupération à faible enjeu et d'essayer de se souvenir avant de relire ses notes. Il prévient que ce qui a été complètement oublié doit être réappris."
+      },
+      "addedAt": "2026-11-28T11:28:34+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "ce-2026-joint-employment-report-2027",
+      "type": "report",
+      "lang": "en",
+      "theme": "adultes",
+      "date": "2026-11-24",
+      "title": "Commission publishes proposal for Joint Employment Report 2027 and pushes Recommendation on Human Capital",
+      "authors": "Commission européenne (DG EMPL)",
+      "source": "European Commission – European Semester Autumn Package 2027",
+      "url": "https://employment-social-affairs.ec.europa.eu/news/commission-publishes-proposal-joint-employment-report-2027-and-pushes-recommendation-human-capital-2026-11-24_en",
+      "abstract": "The Commission's draft Joint Employment Report states that adult participation in learning remains far below the EU's 60% target for 2030: 46.6% of adults took part in learning in 2022. Only 60.4% of adults report at least basic digital skills, while more than 90% of jobs require them. A companion Recommendation on human capital asks member states to strengthen basic skills, AI literacy and STEM and to support workers changing sectors.",
+      "resume": {
+        "q": "Où en est l'Europe sur la formation des adultes et les compétences ?",
+        "m": "Proposition de rapport conjoint sur l'emploi 2027 de la Commission européenne (semestre européen), accompagnée d'une recommandation sur le capital humain ; données de l'enquête sur l'éducation des adultes et de l'enquête Forces de travail.",
+        "r": "46,6 % des adultes ont participé à une formation en 2022, loin de l'objectif de 60 % en 2030. 60,4 % des adultes déclarent des compétences numériques au moins de base, alors que plus de 90 % des emplois en exigent. La recommandation pousse les compétences de base, la littératie en IA et les STEM, et lance un Observatoire européen des compétences. Texte encore à adopter par le Conseil.",
+        "p": "Cadre utile pour argumenter un plan de développement des compétences : numérique de base et culture de l'IA restent des priorités européennes affichées."
+      },
+      "vulga": "Les adultes européens se forment-ils assez ? Selon la Commission européenne, pas encore : un peu moins d'un adulte sur deux s'est formé sur une année, alors que l'objectif est de six sur dix d'ici 2030. Et quatre adultes sur dix n'ont pas les compétences numériques de base, alors que presque tous les emplois les demandent. C'est comme une équipe de foot qui doit jouer en ligue supérieure avec un entraînement d'amateurs. La Commission demande aux États de miser sur les compétences de base, la culture de l'IA et les sciences. Limite : simple proposition, chiffres européens moyens qui masquent les écarts entre pays.",
+      "trad": {
+        "titre": "La Commission publie sa proposition de rapport conjoint sur l'emploi 2027 et défend une recommandation sur le capital humain",
+        "resume": "Le projet de rapport conjoint sur l'emploi de la Commission indique que la participation des adultes à la formation reste très en dessous de l'objectif européen de 60 % pour 2030 : 46,6 % des adultes ont participé à une formation en 2022. Seuls 60,4 % des adultes déclarent des compétences numériques au moins de base, alors que plus de 90 % des emplois les exigent. Une recommandation associée sur le capital humain demande aux États membres de renforcer les compétences de base, la littératie en IA (AI literacy) et les STEM, et d'accompagner les travailleurs qui changent de secteur."
+      },
+      "addedAt": "2026-11-28T11:28:34+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "campusmatin-2026-apprentissage-prives",
+      "type": "article",
+      "lang": "fr",
+      "theme": "adultes",
+      "date": "2026-11-26",
+      "title": "Apprentissage : le grand essor des diplômes privés",
+      "authors": "Gilbert Azoulay",
+      "source": "Campus Matin",
+      "url": "https://www.campusmatin.com/metiers-carrieres/concours-recrutement/apprentissage-le-grand-essor-des-diplomes-prives.html",
+      "abstract": "L'article présente une étude de la Dares (Focus n° 48) sur les certifications préparées en apprentissage depuis 2017. La part des apprentis visant une certification privée passe d'environ 1 sur 20 en 2017 à près de 1 sur 4 en 2024, alors que les contrats passent de 305 300 à 890 100. Plus de 80 % de ces apprentis visent un bac+3 ou bac+5, et la question de la qualité de ces formations reste ouverte.",
+      "resume": {
+        "q": "Quelles certifications préparent aujourd'hui les apprentis en France ?",
+        "m": "Article de presse spécialisée présentant l'étude Dares Focus n° 48 d'Émeline Jounin (début novembre 2026).",
+        "r": "Contrats d'apprentissage : de 305 300 en 2017 à 890 100 en 2024. Apprentis préparant une certification privée : environ 1 sur 20 puis près de 1 sur 4 (effectif multiplié par 14). Plus de 80 % visent bac+3 ou bac+5. Les diplômes d'État restent environ trois quarts des contrats. La part des organismes de formation dans les contrats passe de 2 % à 16 %.",
+        "p": "Pour l'ingénierie de formation en alternance : un marché très concurrentiel où la qualité pédagogique et l'insertion restent peu documentées, d'où l'intérêt de produire ses propres indicateurs."
+      },
+      "addedAt": "2026-11-28T11:28:34+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "igesr-2026-lycees-bloques",
+      "type": "report",
+      "lang": "fr",
+      "theme": "politiques",
+      "date": "2026-11-24",
+      "title": "Synthèse nationale des notes académiques des correspondants territoriaux de l'inspection générale (CTIG) relatives aux lycées bloqués et durablement perturbés",
+      "authors": "Erick Roser, Stéphane Aymard, Marie-Caroline Beer, Catherine Biaggi, Françoise Janier-Dubry, Jean-Marc Moullet",
+      "source": "Ministère de l'Éducation nationale – IGÉSR (rapport n° 26-27 218A)",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/synth-se-nationale-des-notes-acad-miques-des-ctig-relatives-aux-lyc-es-bloqu-s-et-durablement-perturb-s-523491.pdf",
+      "abstract": "Synthèse rapide demandée par le ministère sur le mouvement de blocage des lycées de l'automne 2026, à partir d'entretiens avec les chefs d'établissement de 141 lycées repérés par les académies. Dans les cas durables, les cours ont été perturbés cinq à six semaines avec un fort absentéisme, et les personnels de direction décrivent épuisement et menaces. Le rapport formule sept recommandations, dont une doctrine nationale sur les blocages et une formation des chefs d'établissement à la gestion de crise.",
+      "resume": {
+        "q": "Que s'est-il passé dans les lycées bloqués de l'automne 2026 et comment y répondre ?",
+        "m": "Entretiens (surtout à distance) menés la semaine du 9 novembre par 38 inspecteurs territoriaux, aidés de 26 inspecteurs généraux, avec les chefs d'établissement de 141 lycées choisis par les académies ; 19 notes académiques synthétisées.",
+        "r": "Perturbations de cinq à six semaines dans les cas durables, mouvement durci après les vacances d'automne. Deux profils : lycées où des élèves politisés, souvent favorisés, mènent le mouvement ; lycées où le sentiment de relégation et l'orientation subie nourrissent la violence. Sept recommandations. Ce n'est pas une évaluation : seul le point de vue des chefs d'établissement est recueilli, ce que critique le Café pédagogique.",
+        "p": "Éclairage sur le climat scolaire et l'orientation subie comme facteur de tension ; la recommandation de formation des cadres à la gestion de crise peut intéresser l'ingénierie de formation des personnels."
+      },
+      "vulga": "Qu'ont vécu les lycées bloqués cet automne ? L'inspection générale a interrogé les proviseurs d'environ 140 lycées. Dans les cas les plus longs, les cours ont été perturbés pendant plus d'un mois, avec beaucoup d'absences et des équipes épuisées. Deux situations ressortent : des élèves engagés politiquement d'un côté, des élèves qui se sentent orientés « par défaut » de l'autre. C'est comme un feu qui ne prend pas pour les mêmes raisons selon le bois. Le rapport propose notamment une doctrine nationale et des formations à la gestion de crise. Limite : seul le point de vue des proviseurs est recueilli, sur un échantillon choisi par les académies.",
+      "addedAt": "2026-11-28T11:28:34+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "cafe-2026-pisa-public-prive",
+      "type": "article",
+      "lang": "fr",
+      "theme": "politiques",
+      "date": "2026-11-27",
+      "title": "Public et privé : ce que dit vraiment PISA 2025",
+      "authors": "Hugo Attali",
+      "source": "Le Café pédagogique",
+      "url": "https://www.cafepedagogique.net/2026/11/27/public-et-prive-ce-que-dit-vraiment-pisa-2025/",
+      "abstract": "Ce texte d'analyse soutient que l'avance du privé dans PISA 2025 (509 points contre 476 en sciences) tient surtout à la composition sociale des élèves. À partir des microdonnées de l'OCDE, l'auteur répartit les établissements en quartiles sociaux : le public devance le privé de 27 points dans le quartile le plus défavorisé et de 55 points dans le deuxième, le privé ne menant que dans le quartile le plus favorisé. Analyse transversale et corrélationnelle, sans intervalles de confiance.",
+      "resume": {
+        "q": "L'avance du privé sur le public dans PISA 2025 reflète-t-elle une meilleure efficacité pédagogique ?",
+        "m": "Tribune d'analyse d'un chercheur, fondée sur ses propres calculs à partir des microdonnées PISA (288 établissements répartis en quartiles sociaux) et sur des travaux antérieurs (Cour des comptes, OCDE, CSEN).",
+        "r": "Écart brut en sciences : 509 points (privé) contre 476 (public) ; indice social de +0,25 contre −0,20. À composition sociale comparable, le public devance le privé de 27 et 55 points dans les deux quartiles les moins favorisés ; le privé mène de 20 points dans le plus favorisé, où il scolarise 51 % des élèves.",
+        "p": "Rappel méthodologique transposable : comparer des dispositifs ou des organismes sans tenir compte du profil des publics accueillis conduit à des conclusions trompeuses."
+      },
+      "addedAt": "2026-11-28T11:28:34+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "cafe-2026-merle-lycee-parcoursup",
+      "type": "article",
+      "lang": "fr",
+      "theme": "politiques",
+      "date": "2026-11-24",
+      "title": "Pierre Merle : Il faut repenser conjointement l'organisation du lycée et de Parcoursup",
+      "authors": "Pierre Merle",
+      "source": "Le Café pédagogique (Idées/Débats)",
+      "url": "https://www.cafepedagogique.net/2026/11/24/pierre-merle-il-faut-repenser-conjointement-lorganisation-du-lycee-et-de-parcoursup/",
+      "abstract": "Le sociologue Pierre Merle estime que le libre choix des spécialités au lycée est largement illusoire : sur 78 doublettes possibles en terminale, 8 concentrent 73 % des choix en 2025. Il relève aussi le poids croissant des mathématiques chez les élèves très favorisés et l'opacité de Parcoursup. Il propose de repenser ensemble le lycée et l'accès au supérieur, jusqu'à un retour à des séries.",
+      "resume": {
+        "q": "La réforme du lycée et Parcoursup tiennent-ils leurs promesses de choix et d'équité ?",
+        "m": "Tribune d'un professeur émérite de sociologie, appuyée sur les statistiques de choix de spécialités, de Parcoursup et une note de l'IPP ; plusieurs sources non liées.",
+        "r": "8 doublettes de spécialités sur 78 concentrent 73 % des choix en 2025 ; les maths sont choisies par 53 % des élèves très favorisés (49 % en 2020). Plus de 14 millions de vœux validés sur Parcoursup en 2026. Selon l'IPP, appliquer le quota de boursiers à chaque phase porterait son respect de 68 % à 88 %.",
+        "p": "Contexte pour comprendre les parcours et les choix d'orientation des publics qui arrivent ensuite en formation, notamment en alternance."
+      },
+      "addedAt": "2026-11-28T11:28:34+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "hechinger-2026-cellphone-bans",
+      "type": "article",
+      "lang": "en",
+      "theme": "politiques",
+      "date": "2026-11-23",
+      "title": "Three studies in a row show teeny-tiny or zero academic gains from school cellphone bans",
+      "authors": "Jill Barshay",
+      "source": "The Hechinger Report (Proof Points)",
+      "url": "https://hechingerreport.org/proof-points-3-cellphone-ban-studies/",
+      "abstract": "This column reviews three US studies of school phone restrictions, adopted by at least 40 states since 2023. A Florida district study, a national study of lockable pouches and a Harvard/NWEA study all find tiny or zero academic gains, the largest being 0.0087 standard deviations, about one to two weeks of learning a year, which was not significant under the originally planned method. Suspensions rose at first and then fell, and no study measured phone use outside school.",
+      "resume": {
+        "q": "Interdire le téléphone portable à l'école améliore-t-il les résultats scolaires ?",
+        "m": "Chronique de journalisme scientifique passant en revue trois études américaines (district de Floride, étude nationale sur les pochettes verrouillables, étude Harvard/NWEA sur les scores individuels MAP) et des avis de chercheurs.",
+        "r": "Gains nuls ou minuscules : +0,6 point de percentile en Floride là où l'usage était fort, effet proche de zéro pour les pochettes, +0,0087 écart-type (une à deux semaines d'apprentissage par an selon les auteurs) pour Harvard, non significatif avec la méthode prévue à l'origine. Les exclusions augmentent puis baissent. Aucune étude ne mesure l'usage hors de l'école.",
+        "p": "Limiter les distractions peut se justifier pour le climat de classe, mais ce n'est pas un levier d'apprentissage en soi : l'effort de conception pédagogique reste décisif."
+      },
+      "trad": {
+        "titre": "Trois études d'affilée ne montrent que des gains scolaires minuscules ou nuls avec l'interdiction des téléphones à l'école",
+        "resume": "Cette chronique passe en revue trois études américaines sur les restrictions du téléphone à l'école, adoptées par au moins 40 États depuis 2023. Une étude sur un district de Floride, une étude nationale sur les pochettes verrouillables et une étude Harvard/NWEA trouvent toutes des gains scolaires minuscules ou nuls, le plus élevé étant de 0,0087 écart-type, soit environ une à deux semaines d'apprentissage par an, un effet non significatif avec la méthode prévue initialement. Les exclusions ont d'abord augmenté puis diminué, et aucune étude n'a mesuré l'usage du téléphone en dehors de l'école."
+      },
+      "addedAt": "2026-11-28T11:28:34+01:00",
       "by": "veille"
     }
   ]
