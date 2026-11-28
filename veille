@@ -1,0 +1,1146 @@
+{
+  "lastRun": "2026-11-27T05:49:35+01:00",
+  "note": "Semaine du 20 au 27 novembre 2026 : 21 nouveautés",
+  "items": [
+    {
+      "id": "contractor-reyes-2026",
+      "type": "paper",
+      "lang": "en",
+      "theme": "ia",
+      "date": "2026-10-04",
+      "title": "Experimental Evidence on the Learning Impact of Generative AI",
+      "authors": "Zara Contractor, Germán Reyes",
+      "source": "arXiv (working paper, v2)",
+      "url": "https://arxiv.org/abs/2607.08849",
+      "abstract": "Proctored randomised experiment with 211 undergraduates who studied an unfamiliar topic and wrote an essay with or without AI. AI access raised immediate test scores by 7.2 points (0.28 SD), and a 3.9-point gain remained a week later. Gains lasted for students who used AI to explain and tutor, and faded for those who let it write.",
+      "resume": {
+        "q": "L'accès à une IA générative pendant un devoir chronométré aide-t-il vraiment à apprendre ?",
+        "m": "Expérience randomisée et surveillée : 211 étudiants de licence étudient un sujet inconnu et rédigent un essai avec ou sans IA, puis passent des tests sans aide juste après et une semaine plus tard.",
+        "r": "+7,2 points (0,28 écart-type) au test immédiat, +3,9 points encore une semaine après. Le gain tient chez ceux qui utilisent l'IA comme tuteur et s'efface chez ceux qui la laissent écrire.",
+        "p": "Orienter l'usage de l'IA vers l'explication (poser des questions, se faire réexpliquer) plutôt que vers la production du livrable."
+      },
+      "vulga": "Deux groupes d'étudiants doivent apprendre un sujet nouveau et écrire dessus, l'un avec une IA, l'autre sans. Le groupe avec IA réussit mieux le test qui suit, et garde une partie de son avance une semaine plus tard. Tout dépend pourtant de l'usage : utilisée comme un prof particulier qui explique, l'IA aide à retenir ; utilisée comme un rédacteur qui fait le travail à votre place, l'avantage fond. Limite : une seule expérience, sur une tâche courte, encore en working paper (pas relue par des pairs).",
+      "trad": {
+        "titre": "Données expérimentales sur l'effet de l'IA générative sur l'apprentissage",
+        "resume": "Expérience randomisée et surveillée menée auprès de 211 étudiants de licence, qui ont étudié un sujet qu'ils ne connaissaient pas et rédigé un essai avec ou sans IA. L'accès à l'IA a augmenté les scores au test immédiat de 7,2 points (0,28 écart-type), et un gain de 3,9 points subsistait une semaine plus tard. Les gains ont tenu chez les étudiants qui utilisaient l'IA pour se faire expliquer et accompagner (tutorat), et se sont estompés chez ceux qui la laissaient écrire."
+      },
+      "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "persaud-2026-course-ai-tutor",
+      "type": "paper",
+      "lang": "en",
+      "theme": "ia",
+      "date": "2026-10",
+      "title": "The Effects of Course-Integrated AI Tutoring on Student Performance and Engagement: A Randomized University Trial",
+      "authors": "Axel Persaud, Alia Lancaster, Jeffrey Hollingsworth, Jennifer King Rice",
+      "source": "EdWorkingPaper 26-1598",
+      "url": "https://edworkingpapers.com/ai26-1598",
+      "abstract": "Large randomised trial (2,379 undergraduates, 30 instructors, several disciplines) of a GPT-4o study assistant built into courses. Compared with sections of the same course without it, access lowered final grades by 0.37 SD and participation in the learning platform by 0.90 SD.",
+      "resume": {
+        "q": "Un tuteur IA intégré au cours améliore-t-il les notes et l'engagement des étudiants ?",
+        "m": "Essai randomisé dans une grande université publique américaine : 2 379 étudiants, 30 enseignants, plusieurs disciplines ; assistant d'étude basé sur GPT-4o, comparé à des sections du même cours sans assistant.",
+        "r": "Notes finales en baisse de 0,37 écart-type et participation sur la plateforme du cours en baisse de 0,90 écart-type.",
+        "p": "Ne pas considérer qu'ajouter un assistant IA améliore un parcours : tester avant de généraliser, suivre l'engagement et articuler l'outil avec les activités existantes."
+      },
+      "vulga": "Une université a donné à une partie de ses étudiants un assistant IA directement dans leurs cours, et pas aux autres, au hasard. Résultat inattendu : ceux qui l'avaient ont eu de moins bonnes notes et ont beaucoup moins participé sur la plateforme du cours. C'est un peu comme donner une calculatrice qui résout tout à un élève qui apprend à calculer : il s'entraîne moins. Limite : working paper non encore relu, un seul établissement et un outil précis ; les raisons exactes de l'effet restent à établir.",
+      "trad": {
+        "titre": "Les effets d'un tutorat par IA intégré au cours sur la performance et l'engagement des étudiants : un essai randomisé à l'université",
+        "resume": "Vaste essai randomisé (2 379 étudiants de licence, 30 enseignants, plusieurs disciplines) portant sur un assistant d'étude basé sur GPT-4o intégré aux cours. Par rapport aux sections du même cours qui n'en disposaient pas, l'accès à cet assistant a fait baisser les notes finales de 0,37 écart-type et la participation sur la plateforme d'apprentissage de 0,90 écart-type."
+      },
+      "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "stanford-evidence-nov-2026",
+      "type": "report",
+      "lang": "en",
+      "theme": "ia",
+      "date": "2026-11-10",
+      "title": "The Evidence Base on AI in K-12: A November 2026 Review",
+      "authors": "Walker, Fesler, Martinez Claeys, Agnew, Loeb",
+      "source": "Stanford SCALE – AI Hub for Education",
+      "url": "https://scale.stanford.edu/ai/evidence-base-review/evidence-base-ai-k12-november-review",
+      "abstract": "Update covering 52 causal studies on generative AI in education. Main takeaways: AI helps more when students use it to understand than to produce work; a more pleasant experience does not guarantee more learning; design choices matter more than the type of tool; and K-12 evidence remains thin and short-term.",
+      "resume": {
+        "q": "Que disent les études causales récentes sur l'IA générative en éducation ?",
+        "m": "Revue de 52 études (essais randomisés et quasi-expérimentales), dont 32 nouvelles parues entre octobre 2025 et juin 2026.",
+        "r": "L'IA aide davantage quand elle sert à comprendre que quand elle produit le travail ; une expérience plus agréable ne garantit pas plus d'apprentissage ; la conception compte plus que le type d'outil ; les preuves restent minces en primaire et secondaire, et surtout à court terme.",
+        "p": "Concevoir des usages guidés (interactivité, séquençage adaptatif, consignes claires) et mesurer l'apprentissage réel, pas seulement la satisfaction."
+      },
+      "vulga": "Des chercheurs de Stanford ont rassemblé toutes les études sérieuses (celles qui comparent un groupe avec IA à un groupe sans) parues récemment. Leur message tient en quelques idées : l'IA aide quand on s'en sert pour comprendre, beaucoup moins quand elle fait le travail ; les élèves adorent souvent l'outil sans forcément apprendre plus ; et la façon dont l'activité est conçue compte plus que la marque de l'outil. Limite : la plupart des études portent sur l'université et sur des effets à court terme.",
+      "trad": {
+        "titre": "L'état des preuves sur l'IA dans l'enseignement primaire et secondaire : revue de novembre 2026",
+        "resume": "Mise à jour couvrant 52 études causales sur l'IA générative en éducation. Principaux enseignements : l'IA aide davantage quand les élèves l'utilisent pour comprendre que pour produire un travail ; une expérience plus agréable ne garantit pas davantage d'apprentissage ; les choix de conception comptent plus que le type d'outil ; et les preuves pour le primaire et le secondaire restent minces et à court terme."
+      },
+      "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "hechinger-meta-audit",
+      "type": "article",
+      "lang": "en",
+      "theme": "ia",
+      "date": "2026-10-26",
+      "title": "39 meta-analyses, 39 positive findings: An audit finds serious flaws in research on AI",
+      "authors": "Jill Barshay",
+      "source": "The Hechinger Report (Proof Points)",
+      "url": "https://hechingerreport.org/proof-points-ai-education-meta-analysis/",
+      "abstract": "All 39 published meta-analyses on AI in education report large benefits, but a forensic audit of 14 of them by Patrick O'Neill found serious conceptual and statistical problems. His own preliminary analysis of 44 experiments points to results ranging from very helpful to very harmful, averaging close to zero.",
+      "resume": {
+        "q": "La recherche sur les bénéfices de l'IA en éducation est-elle aussi solide qu'elle en a l'air ?",
+        "m": "Enquête journalistique sur l'audit de Patrick O'Neill (Ivy Tech), qui a réexaminé 14 des 39 méta-analyses publiées sur l'IA en éducation.",
+        "r": "Les 39 méta-analyses concluent toutes à de gros bénéfices, mais l'audit relève de sérieux problèmes conceptuels et statistiques ; sa propre analyse préliminaire de 44 expériences donne des effets très variables, en moyenne proches de zéro.",
+        "p": "Se méfier des chiffres « l'IA améliore l'apprentissage de X % » tirés de méta-analyses : regarder quel usage précis a été testé, et comment."
+      },
+      "trad": {
+        "titre": "39 méta-analyses, 39 résultats positifs : un audit révèle de graves failles dans la recherche sur l'IA",
+        "resume": "Les 39 méta-analyses publiées sur l'IA en éducation font toutes état de bénéfices importants, mais un audit approfondi de 14 d'entre elles, mené par Patrick O'Neill, a mis au jour de sérieux problèmes conceptuels et statistiques. Sa propre analyse préliminaire de 44 expériences montre des résultats allant de très bénéfiques à très néfastes, avec une moyenne proche de zéro."
+      },
+      "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "hechinger-same-researcher",
+      "type": "article",
+      "lang": "en",
+      "theme": "ia",
+      "date": "2026-11-02",
+      "title": "Same researcher, opposite results: one AI tutor engaged middle schoolers, another backfired with college students",
+      "authors": "Jill Barshay",
+      "source": "The Hechinger Report (Proof Points)",
+      "url": "https://hechingerreport.org/proof-points-ai-tutor-results/",
+      "abstract": "Two contrasting studies: a little regular practice on the Goblins maths platform was linked to higher year-end scores (correlational), while a course AI assistant lowered college students' engagement and grades. Only 15% of students in the AI sections ever used it, mostly to get answers.",
+      "resume": {
+        "q": "Pourquoi deux tuteurs IA étudiés par la même chercheuse donnent-ils des résultats opposés ?",
+        "m": "Mise en regard de deux études : une plateforme de maths au collège (Goblins, étude corrélationnelle) et un assistant IA dans des cours universitaires (essai randomisé).",
+        "r": "Au collège, résoudre au moins deux problèmes par semaine est associé à de meilleurs scores en fin d'année, sans preuve de causalité. À l'université, seuls 15 % des étudiants ont utilisé l'assistant, surtout pour obtenir des réponses, avec une baisse d'engagement et de notes.",
+        "p": "Un outil IA ne vaut que par l'usage réel : prévoir des routines de pratique régulière et vérifier que les apprenants s'en servent pour s'entraîner, pas pour récupérer des réponses."
+      },
+      "trad": {
+        "titre": "Même chercheuse, résultats opposés : un tuteur IA a motivé des collégiens, un autre s'est retourné contre des étudiants",
+        "resume": "Deux études contrastées : un peu de pratique régulière sur la plateforme de mathématiques Goblins est associée à de meilleurs scores en fin d'année (étude corrélationnelle), tandis qu'un assistant IA intégré à des cours universitaires a réduit l'engagement et les notes des étudiants. Seuls 15 % des étudiants des sections concernées l'ont utilisé, surtout pour obtenir des réponses."
+      },
+      "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "dang-behrman-2026",
+      "type": "paper",
+      "lang": "en",
+      "theme": "politiques",
+      "date": "2026-11",
+      "title": "From Cheap Answers to Lasting Learning: AI Tutoring and Educational Inequality",
+      "authors": "Hai-Anh H. Dang, Jere Behrman",
+      "source": "IZA Discussion Paper 19072",
+      "url": "https://docs.iza.org/dp19072.pdf",
+      "abstract": "Review of whether AI tutoring narrows or widens learning gaps. The authors argue access alone does not settle it: what counts is which students use AI and whether they use it for quick answers or for lasting understanding.",
+      "resume": {
+        "q": "Le tutorat par IA réduit-il ou creuse-t-il les inégalités scolaires ?",
+        "m": "Revue de littérature et analyse économique (document de travail IZA).",
+        "r": "L'accès à l'IA ne suffit pas à trancher : tout dépend de quels élèves l'utilisent et de la manière (réponses rapides ou compréhension durable). Chiffres d'usage : non précisés dans le résumé disponible.",
+        "p": "Accompagner explicitement les publics les plus fragiles vers des usages d'apprentissage, sinon l'outil risque de profiter surtout aux plus autonomes."
+      },
+      "vulga": "Donner à tout le monde le même outil ne rend pas les gens égaux devant l'apprentissage. Ces deux économistes expliquent que l'IA peut servir de « distributeur de réponses » ou de vrai professeur, et que ce sont souvent les élèves déjà à l'aise qui en font le meilleur usage. Comme une bibliothèque ouverte à tous : elle profite davantage à ceux qui savent déjà y chercher. Limite : c'est une synthèse et une réflexion, pas une nouvelle expérience.",
+      "trad": {
+        "titre": "Des réponses bon marché à un apprentissage durable : le tutorat par IA et les inégalités éducatives",
+        "resume": "Revue de la question : le tutorat par IA réduit-il ou creuse-t-il les écarts d'apprentissage ? Les auteurs soutiennent que l'accès seul ne règle pas la question : ce qui compte, c'est quels élèves utilisent l'IA et s'ils s'en servent pour obtenir des réponses rapides ou pour construire une compréhension durable."
+      },
+      "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "wiles-2026-upskilling",
+      "type": "paper",
+      "lang": "en",
+      "theme": "adultes",
+      "date": "2026-10-26",
+      "title": "Generative AI and the temporary upskilling of knowledge workers",
+      "authors": "Wiles et al.",
+      "source": "Nature Human Behaviour",
+      "url": "https://www.nature.com/articles/s41562-026-02566-6",
+      "abstract": "Randomised trial with 487 management consultants trained to use ChatGPT on data-science tasks outside their expertise. The tool acted like an exoskeleton: they performed better with it, but did not retain the underlying knowledge once it was taken away.",
+      "resume": {
+        "q": "L'IA générative fait-elle vraiment monter les salariés en compétences ?",
+        "m": "Essai randomisé avec 487 consultants en management, formés à ChatGPT et confrontés à des tâches de data science hors de leur spécialité.",
+        "r": "Avec l'outil, ils réussissent mieux ; sans l'outil, ils n'ont pas retenu les connaissances sous-jacentes. Les auteurs parlent d'« exosquelette » : un gain qui dépend de l'usage continu.",
+        "p": "Distinguer dans un dispositif de formation ce qui relève de la performance assistée et ce qui relève de la compétence acquise, et évaluer aussi sans l'outil."
+      },
+      "vulga": "On a donné ChatGPT à des consultants pour faire des analyses de données, un domaine qu'ils ne maîtrisaient pas. Avec l'outil, ils s'en sortaient bien mieux. Mais quand on le leur retirait, ils n'avaient presque rien appris. C'est l'effet exosquelette : on soulève plus lourd tant qu'on le porte, mais ses muscles ne grossissent pas. Pour la formation, ça veut dire qu'« être capable avec l'IA » et « avoir appris » sont deux choses différentes. Limite : un seul type de tâche et de public.",
+      "trad": {
+        "titre": "L'IA générative et la montée en compétences temporaire des travailleurs du savoir",
+        "resume": "Essai randomisé mené auprès de 487 consultants en management formés à utiliser ChatGPT sur des tâches de science des données hors de leur domaine d'expertise. L'outil a joué le rôle d'un exosquelette : ils ont obtenu de meilleurs résultats en l'utilisant, mais n'ont pas retenu les connaissances sous-jacentes une fois l'outil retiré."
+      },
+      "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "glave-2026-peru-teachers",
+      "type": "paper",
+      "lang": "en",
+      "theme": "adultes",
+      "date": "2026-10",
+      "title": "Not Faster, but Better: Generative AI and Teacher Skill in Peru",
+      "authors": "Carla Z. Glave, Carolina Lopez, Ezequiel Molina, Román Andrés Zárate",
+      "source": "World Bank Policy Research Working Paper 11476",
+      "url": "https://econpapers.repec.org/RePEc:wbk:wbrwps:11476",
+      "abstract": "A one-day training, a Copilot licence and eight months of light follow-up sharply raised AI adoption among teachers but saved no time on any core task. Trained teachers wrote better prompts and spotted weak AI outputs more often, with the biggest gains for older teachers.",
+      "resume": {
+        "q": "Former des enseignants à l'IA leur fait-il gagner du temps ?",
+        "m": "Programme évalué de façon randomisée auprès d'enseignants de CM2 à Lima : une journée de formation, une licence Copilot et huit mois de suivi léger.",
+        "r": "Adoption de l'IA en forte hausse mais aucun temps gagné sur les tâches principales. En revanche, meilleurs prompts et meilleure détection des réponses faibles de l'IA, surtout chez les enseignants plus âgés.",
+        "p": "Fixer des objectifs de formation à l'IA en termes de qualité et d'esprit critique plutôt que de gain de temps."
+      },
+      "vulga": "Au Pérou, on a formé des enseignants à l'IA en promettant implicitement qu'ils iraient plus vite. Raté pour la vitesse : ils ne gagnent pas de temps. Mais ils sont devenus meilleurs pour formuler leurs demandes et pour repérer quand l'IA raconte n'importe quoi, et ce sont les plus âgés, partis de plus loin, qui progressent le plus. Comme apprendre à conduire une voiture plus puissante : on ne va pas forcément plus vite, mais on conduit mieux. Limite : un contexte et un public précis.",
+      "trad": {
+        "titre": "Pas plus rapides, mais meilleurs : l'IA générative et les compétences des enseignants au Pérou",
+        "resume": "Une journée de formation, une licence Copilot et huit mois de suivi léger ont fortement accru l'adoption de l'IA chez les enseignants, mais ne leur ont fait gagner de temps sur aucune de leurs tâches principales. Les enseignants formés rédigeaient de meilleurs prompts et repéraient plus souvent les réponses faibles de l'IA, avec des gains plus importants chez les enseignants les plus âgés."
+      },
+      "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "educsci-2026-ai-tutor-course",
+      "type": "paper",
+      "lang": "en",
+      "theme": "adultes",
+      "date": "2026-10-12",
+      "title": "AI Tutor, Online Course, or Both? A Randomized Experimental Pilot Study for Evaluation Capacity Building",
+      "authors": "",
+      "source": "Education Sciences 16(10), 1700",
+      "url": "https://doi.org/10.3390/educsci16101700",
+      "abstract": "A 2×2 randomised pilot with Cooperative Extension professionals crossing access to an asynchronous certificate course and to a custom GPT tutor, measuring evaluation knowledge and self-efficacy. Framed by social cognitive theory and cognitive load theory.",
+      "resume": {
+        "q": "Pour former des professionnels, vaut-il mieux un tuteur IA, un cours en ligne, ou les deux ?",
+        "m": "Pilote randomisé en plan 2×2 auprès de professionnels de la vulgarisation agricole américaine (Cooperative Extension) : accès ou non à un cours certifiant asynchrone, et accès ou non à un GPT personnalisé.",
+        "r": "Connaissances en évaluation et sentiment d'efficacité personnelle mesurés ; résultats chiffrés non précisés dans le résumé disponible.",
+        "p": "Un dispositif intéressant à reproduire pour comparer formation structurée et assistant IA dans un plan de formation interne."
+      },
+      "vulga": "Les chercheurs se sont demandé si un assistant IA pouvait remplacer un vrai cours pour former des adultes en poste. Ils ont réparti les participants en quatre groupes : cours seul, IA seule, les deux, ou rien, puis ont mesuré ce qu'ils savaient et leur confiance. C'est un peu comme comparer un manuel, un coach, ou les deux ensemble. Limite : c'est un pilote, donc un petit échantillon ; à lire comme une piste, pas comme une preuve.",
+      "trad": {
+        "titre": "Tuteur IA, cours en ligne, ou les deux ? Une étude pilote expérimentale randomisée pour le développement des compétences en évaluation",
+        "resume": "Pilote randomisé en plan 2×2 auprès de professionnels du Cooperative Extension, croisant l'accès à un cours certifiant asynchrone et l'accès à un tuteur GPT personnalisé, et mesurant les connaissances en évaluation et le sentiment d'efficacité personnelle (self-efficacy). L'étude s'appuie sur la théorie sociocognitive et la théorie de la charge cognitive (cognitive load theory)."
+      },
+      "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "ibstpi-2026-competencies",
+      "type": "report",
+      "lang": "en",
+      "theme": "adultes",
+      "date": "2026-11-10",
+      "title": "IBSTPI releases the 2026 Instructional Designer Competencies",
+      "authors": "Jill Stefaniak, Matthew Schmidt (dir.)",
+      "source": "IBSTPI",
+      "url": "https://ibstpi.org/2026/11/10/ibstpi-releases-the-2026-instructional-designer-competencies/",
+      "abstract": "The updated international reference framework for instructional designers, the result of nearly three years of research and community consultation: 24 competencies grouped into six domains.",
+      "resume": {
+        "q": "Quelles compétences définissent aujourd'hui le métier d'ingénieur pédagogique ?",
+        "m": "Près de trois ans de recherche et de consultation internationale, sous la direction de Jill Stefaniak et Matthew Schmidt.",
+        "r": "Nouveau référentiel : 24 compétences réparties en six domaines.",
+        "p": "Utile pour se positionner, construire un plan de développement ou une fiche de poste ; à comparer au référentiel précédent."
+      },
+      "vulga": "L'IBSTPI, l'organisme qui fait référence pour décrire le métier de concepteur pédagogique, vient de mettre à jour sa « carte » du métier : 24 compétences regroupées en six familles. C'est l'équivalent d'une grille de lecture officielle de ce qu'on attend d'un ingénieur pédagogique en 2026. Pratique pour faire le point sur ses forces ou préparer un entretien annuel. Limite : un référentiel décrit un idéal professionnel, il ne mesure pas l'efficacité des formations.",
+      "trad": {
+        "titre": "L'IBSTPI publie le référentiel 2026 des compétences du concepteur pédagogique",
+        "resume": "Le référentiel international mis à jour pour les concepteurs pédagogiques (instructional designers), fruit de près de trois ans de recherche et de consultation de la communauté : 24 compétences regroupées en six domaines."
+      },
+      "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "ruitenburg-2026-classroom-meta",
+      "type": "paper",
+      "lang": "en",
+      "theme": "cognition",
+      "date": "2026-10",
+      "title": "A Meta-Analysis of the Effectiveness and Boundary Conditions of Retrieval Practice, Distributed Practice, and Interleaved Practice in Authentic School Classrooms",
+      "authors": "Sterre K. Ruitenburg, Mieke Goos, Guus Lambert et al.",
+      "source": "Educational Psychology Review 38, art. 137",
+      "url": "https://link.springer.com/article/10.1007/s10648-026-10225-5",
+      "abstract": "Three-level meta-analysis (233 effect sizes) restricted to real primary and secondary classrooms. All three strategies work, with smaller effects than in the lab (retrieval g = 0.37, spacing g = 0.20, interleaving g = 0.40), and only reliably when practice actually triggers the underlying cognitive processes.",
+      "resume": {
+        "q": "Récupération en mémoire, espacement et entrelacement marchent-ils en vraie classe, pas seulement en laboratoire ?",
+        "m": "Méta-analyse à trois niveaux, 233 tailles d'effet, uniquement en classes réelles du primaire et du secondaire.",
+        "r": "Les trois stratégies fonctionnent : récupération g = 0,37, espacement g = 0,20, entrelacement g = 0,40, avec des effets plus faibles qu'en laboratoire. Elles ne marchent de façon fiable que si l'activité déclenche vraiment les processus cognitifs visés.",
+        "p": "Garder quiz, révisions espacées et exercices mélangés, mais vérifier qu'ils obligent réellement à rechercher en mémoire et à distinguer les types de problèmes."
+      },
+      "vulga": "Trois techniques d'apprentissage font l'unanimité en laboratoire : se tester plutôt que relire, étaler ses révisions, et mélanger les types d'exercices. Cette grande synthèse vérifie si elles tiennent dans de vraies classes. Bonne nouvelle : oui, même si l'effet est plus modeste. Mais il y a une condition : un quiz où l'on recopie la réponse ne sert à rien, il faut vraiment aller chercher dans sa mémoire. Comme un muscle, ça ne marche que si on force. Limite : effets moyens, qui varient selon les classes.",
+      "trad": {
+        "titre": "Méta-analyse de l'efficacité et des conditions limites de la pratique de récupération, de la pratique espacée et de la pratique entrelacée dans de vraies classes",
+        "resume": "Méta-analyse à trois niveaux (233 tailles d'effet) limitée à de vraies classes du primaire et du secondaire. Les trois stratégies fonctionnent, avec des effets plus faibles qu'en laboratoire (pratique de récupération (retrieval practice) g = 0,37, espacement (spacing) g = 0,20, entrelacement (interleaving) g = 0,40), et seulement de façon fiable lorsque l'entraînement déclenche réellement les processus cognitifs sous-jacents."
+      },
+      "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "debruyckere-classroom-strategies",
+      "type": "article",
+      "lang": "en",
+      "theme": "cognition",
+      "date": "2026-10-31",
+      "title": "Do retrieval practice, spaced practice and interleaving work in real classrooms?",
+      "authors": "Pedro De Bruyckere",
+      "source": "From experience to meaning (blog)",
+      "url": "https://theeconomyofmeaning.com/2026/10/31/do-retrieval-practice-spaced-practice-and-interleaving-work-in-real-classrooms/",
+      "abstract": "An accessible walkthrough of the new classroom meta-analysis by Ruitenburg and colleagues, with its practical takeaways and caveats.",
+      "resume": {
+        "q": "Que retenir, en pratique, de la nouvelle méta-analyse sur les stratégies d'apprentissage en classe ?",
+        "m": "Billet de blog de Pedro De Bruyckere, chercheur en éducation, commentant l'étude de Ruitenburg et coll.",
+        "r": "Les trois stratégies tiennent en classe réelle (récupération g = 0,37, espacement g = 0,20, entrelacement g = 0,40) ; elles ne cessent pas de fonctionner, mais avec des effets plus modestes qu'en laboratoire.",
+        "p": "Un bon point d'entrée pour présenter ces résultats à une équipe ou à des formateurs."
+      },
+      "trad": {
+        "titre": "La pratique de récupération, la pratique espacée et l'entrelacement fonctionnent-ils dans de vraies classes ?",
+        "resume": "Une présentation accessible de la nouvelle méta-analyse menée en classes réelles par Ruitenburg et ses collègues, avec ses enseignements pratiques et ses limites."
+      },
+      "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "memory-2026-spaced-retrieval",
+      "type": "paper",
+      "lang": "en",
+      "theme": "cognition",
+      "date": "2026-10",
+      "title": "Examining the benefits of spaced retrieval practice on transfer and the student experience in the classroom",
+      "authors": "",
+      "source": "Memory, vol. 34, issue 10",
+      "url": "https://doi.org/10.1080/09658211.2026.2733327",
+      "abstract": "A classroom study of spaced retrieval practice versus restudy that looks beyond final memory scores, at transfer and at how students experience the strategy.",
+      "resume": {
+        "q": "La récupération espacée aide-t-elle aussi à transférer ses connaissances, et comment les élèves la vivent-ils ?",
+        "m": "Étude en classe comparant récupération espacée et relecture.",
+        "r": "Au-delà de la mémorisation, l'étude mesure le transfert et le ressenti des élèves ; chiffres non précisés dans le résumé disponible.",
+        "p": "Intéressant pour argumenter auprès des apprenants : l'effort de récupération peut sembler plus pénible sans être moins efficace."
+      },
+      "vulga": "On sait que se tester à intervalles réguliers aide à retenir. Cette étude va plus loin : est-ce que ça aide aussi à utiliser ce qu'on a appris dans une situation nouvelle, et est-ce que les élèves apprécient la méthode ? C'est important, car une stratégie efficace mais détestée est vite abandonnée. Limite : le détail des résultats n'est pas dans le résumé que nous avons ; à lire sur la source.",
+      "trad": {
+        "titre": "Étude des bénéfices de la pratique de récupération espacée sur le transfert et le vécu des élèves en classe",
+        "resume": "Une étude en classe de la pratique de récupération espacée (spaced retrieval practice) comparée à la relecture (restudy), qui va au-delà des scores de mémoire finaux pour examiner le transfert et la façon dont les élèves vivent cette stratégie."
+      },
+      "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "nedt-2026-spaced-learning",
+      "type": "paper",
+      "lang": "en",
+      "theme": "cognition",
+      "date": "2026-11",
+      "title": "Effects of spaced learning on knowledge acquisition, retention and learning-related anxiety in health professions education: a systematic review and meta-analysis of RCTs",
+      "authors": "",
+      "source": "Nurse Education Today",
+      "url": "https://doi.org/10.1016/j.nedt.2026.107285",
+      "abstract": "Meta-analysis of randomised trials in health-professions training: spaced learning improved knowledge acquisition and retention and reduced learning-related anxiety; digital delivery helped personalise it.",
+      "resume": {
+        "q": "L'apprentissage espacé est-il efficace dans la formation des professionnels de santé ?",
+        "m": "Revue systématique et méta-analyse d'essais randomisés.",
+        "r": "Meilleure acquisition et meilleure rétention des connaissances, et moins d'anxiété liée à l'apprentissage ; le format numérique aide à personnaliser.",
+        "p": "Argument solide pour des parcours adultes en micro-sessions espacées, avec rappels automatisés."
+      },
+      "vulga": "Plutôt que de tout apprendre en un bloc, on étale les sessions dans le temps : c'est l'apprentissage espacé. Cette synthèse d'essais auprès d'étudiants en santé montre que ça marche pour apprendre et retenir, et que ça réduit même le stress. Comme arroser une plante un peu chaque jour plutôt qu'une fois par mois à grands seaux. Limite : public spécifique (santé) ; l'effet sur d'autres métiers reste à confirmer.",
+      "trad": {
+        "titre": "Effets de l'apprentissage espacé sur l'acquisition des connaissances, leur rétention et l'anxiété liée à l'apprentissage dans la formation des professionnels de santé : revue systématique et méta-analyse d'essais randomisés",
+        "resume": "Méta-analyse d'essais randomisés dans la formation aux professions de santé : l'apprentissage espacé (spaced learning) a amélioré l'acquisition et la rétention des connaissances et réduit l'anxiété liée à l'apprentissage ; le format numérique a aidé à le personnaliser."
+      },
+      "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "toomey-2026-jcal",
+      "type": "paper",
+      "lang": "en",
+      "theme": "charge",
+      "date": "2026-10",
+      "title": "Multimedia Learning Outcomes and Cognitive Load: The Roles of Spatial Ability, Enjoyment, Domain, and Resource Type",
+      "authors": "Natalie Toomey et al.",
+      "source": "Journal of Computer Assisted Learning 42(6)",
+      "url": "https://doi.org/10.1002/jcal.70345",
+      "abstract": "Examines spatial ability, enjoyment, gender and static versus animated visuals in parallel biology and mechanics tasks. In both domains, higher spatial ability predicted better learning and lower perceived extraneous load.",
+      "resume": {
+        "q": "Qu'est-ce qui prédit l'apprentissage avec des supports multimédias : capacités, plaisir, type de visuel ?",
+        "m": "Deux tâches parallèles (biologie et mécanique), visuels statiques ou animés ; mesures de capacité spatiale, plaisir, genre, apprentissage et charge cognitive perçue.",
+        "r": "Dans les deux domaines, une meilleure capacité spatiale prédit un meilleur apprentissage et une charge extrinsèque perçue plus faible.",
+        "p": "Prévoir des aides (repères visuels, découpage, schémas annotés) pour les apprenants moins à l'aise avec les représentations spatiales."
+      },
+      "vulga": "Face à une animation qui montre comment fonctionne un mécanisme, tout le monde n'est pas égal. Ceux qui se représentent facilement les objets dans l'espace apprennent mieux et trouvent le support moins fatigant. Comme lire une carte : facile pour certains, épuisant pour d'autres. Pour le concepteur, l'enjeu est de ne pas laisser de côté ceux qui peinent. Limite : deux tâches de laboratoire, à confirmer dans de vraies formations.",
+      "trad": {
+        "titre": "Résultats d'apprentissage multimédia et charge cognitive : rôle de la capacité spatiale, du plaisir, du domaine et du type de ressource",
+        "resume": "L'étude examine la capacité spatiale, le plaisir, le genre et les visuels statiques ou animés dans des tâches parallèles de biologie et de mécanique. Dans les deux domaines, une capacité spatiale plus élevée prédisait un meilleur apprentissage et une charge extrinsèque perçue (extraneous load) plus faible."
+      },
+      "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "mistry-2026-linear-content",
+      "type": "paper",
+      "lang": "en",
+      "theme": "charge",
+      "date": "2026-09-25",
+      "title": "A Multimodal Investigation of Learner Attention and Cognitive Load in Linear and Non-Linear Educational Content",
+      "authors": "K. Mistry, G. Dafoulas, G. Nalli, F. T. Aria, B. Langari, A. Tsiakara",
+      "source": "E-Learning Innovations Journal 4(2)",
+      "url": "https://doi.org/10.57125/ELIJ.2026.09.25.02",
+      "abstract": "Uses eye-tracking and physiological sensors to compare attention, cognitive load and engagement in linear versus non-linear digital content, and discusses indicators that could drive adaptive course design.",
+      "resume": {
+        "q": "Un contenu linéaire ou non linéaire change-t-il l'attention et la charge cognitive des apprenants ?",
+        "m": "Oculométrie (eye-tracking) et capteurs physiologiques pour comparer des contenus numériques linéaires et non linéaires.",
+        "r": "Comparaison de l'attention, de la charge et de l'engagement ; chiffres non précisés dans le résumé disponible. Les auteurs proposent des indicateurs pour des parcours adaptatifs.",
+        "p": "Piste pour choisir entre parcours guidé pas à pas et navigation libre selon le public."
+      },
+      "vulga": "Un cours en ligne peut se suivre comme un livre, page après page, ou comme un site où l'on clique où l'on veut. Les chercheurs ont observé le regard et les réactions du corps des apprenants dans les deux cas, pour voir lequel fatigue le plus et retient mieux l'attention. Comme comparer une visite guidée et une balade libre dans un musée. Limite : les résultats chiffrés ne figurent pas dans le résumé ; revue peu connue, à lire avec prudence.",
+      "trad": {
+        "titre": "Étude multimodale de l'attention et de la charge cognitive des apprenants face à des contenus pédagogiques linéaires et non linéaires",
+        "resume": "L'étude utilise l'oculométrie (eye-tracking) et des capteurs physiologiques pour comparer l'attention, la charge cognitive et l'engagement dans des contenus numériques linéaires et non linéaires, et discute d'indicateurs qui pourraient guider la conception de cours adaptatifs."
+      },
+      "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "uproc-2026-clt-genai",
+      "type": "paper",
+      "lang": "en",
+      "theme": "charge",
+      "date": "2026-09",
+      "title": "Beyond extraneous load: Reconceptualizing cognitive load theory for generative AI-mediated learning environments",
+      "authors": "",
+      "source": "Ubiquity Proceedings",
+      "url": "https://reference-global.com/article/10.5334/uproc.259",
+      "abstract": "Theoretical paper arguing that cognitive load theory, built for static materials where the learner is the only thinking agent, needs rethinking for AI-assisted learning, pointing to findings where ChatGPT improves outcomes without changing perceived effort or load.",
+      "resume": {
+        "q": "La théorie de la charge cognitive tient-elle encore quand l'apprenant travaille avec une IA ?",
+        "m": "Article théorique s'appuyant sur des résultats publiés.",
+        "r": "La théorie a été pensée pour des supports figés où l'apprenant est seul à « penser » ; certaines études montrent que ChatGPT améliore les résultats sans changer l'effort ni la charge perçus, ce qui la met en tension.",
+        "p": "Repenser la conception des activités où l'IA partage le travail cognitif : qu'est-ce que l'apprenant doit continuer à faire lui-même ?"
+      },
+      "vulga": "La théorie de la charge cognitive dit en gros : notre mémoire de travail est petite, donc il faut supprimer tout ce qui encombre pour laisser la place à l'apprentissage. Mais elle a été pensée pour des manuels et des diaporamas. Avec une IA qui réfléchit en partie à notre place, les règles changent peut-être : on peut mieux réussir sans faire plus d'efforts. L'auteur propose de revoir la théorie. Limite : article d'idées, sans nouvelle expérience.",
+      "trad": {
+        "titre": "Au-delà de la charge extrinsèque : repenser la théorie de la charge cognitive pour les environnements d'apprentissage médiés par l'IA générative",
+        "resume": "Article théorique qui soutient que la théorie de la charge cognitive (cognitive load theory), conçue pour des supports statiques où l'apprenant est le seul agent qui réfléchit, doit être repensée pour l'apprentissage assisté par l'IA, en s'appuyant sur des résultats où ChatGPT améliore les performances sans modifier l'effort ni la charge perçus."
+      },
+      "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "arxiv-2026-feedback-without-wait",
+      "type": "paper",
+      "lang": "en",
+      "theme": "evaluation",
+      "date": "2026-10",
+      "title": "Feedback Without the Wait: Piloting a Generative AI Practice Platform in a Large Maths Class",
+      "authors": "",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2610.01262",
+      "abstract": "Pilot of a generative AI practice platform giving instant formative feedback in a large university maths course, analysed in light of formative assessment theory.",
+      "resume": {
+        "q": "Une plateforme d'entraînement avec feedback instantané par IA est-elle utile dans un grand amphi de maths ?",
+        "m": "Étude pilote dans un cours universitaire de mathématiques à gros effectif, analysée à la lumière de l'évaluation formative.",
+        "r": "Résultats chiffrés non précisés dans le résumé disponible.",
+        "p": "Piste pour offrir un retour immédiat aux apprenants quand les formateurs ne peuvent pas corriger tout le monde."
+      },
+      "vulga": "Dans un amphi de plusieurs centaines d'étudiants, impossible pour l'enseignant de corriger chaque exercice rapidement. Ici, une IA donne un retour immédiat pendant l'entraînement, comme un correcteur toujours disponible. L'étude regarde si ce feedback « sans attente » joue bien son rôle d'aide à l'apprentissage. Limite : étude pilote en prépublication, sans relecture par les pairs.",
+      "trad": {
+        "titre": "Un feedback sans attente : expérimentation d'une plateforme d'entraînement par IA générative dans un cours de mathématiques à grand effectif",
+        "resume": "Pilote d'une plateforme d'entraînement par IA générative qui donne un feedback formatif instantané dans un cours de mathématiques universitaire à grand effectif, analysé au regard de la théorie de l'évaluation formative (formative assessment)."
+      },
+      "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "drexel-oral-exams",
+      "type": "article",
+      "lang": "en",
+      "theme": "evaluation",
+      "date": "2026-10",
+      "title": "Oral Exams: a meaningful and authentic way of assessing student learning in the age of AI",
+      "authors": "Gabriela Constantin-Dureci",
+      "source": "Drexel University – Teaching & Learning",
+      "url": "https://drexel.edu/teaching-and-learning/resources/teaching-tips/2026/October/Oral-Exams",
+      "abstract": "Practical guide to bringing back oral examinations, with follow-up questions that ask students to explain their reasoning, as an authentic assessment format when written work can be AI-generated.",
+      "resume": {
+        "q": "Comment évaluer de façon authentique quand les écrits peuvent être produits par une IA ?",
+        "m": "Fiche pratique d'un centre de pédagogie universitaire.",
+        "r": "L'oral, avec des questions de relance qui demandent d'expliciter son raisonnement, est présenté comme une évaluation authentique difficile à déléguer à l'IA.",
+        "p": "Ajouter un court entretien oral ou une soutenance à une évaluation écrite pour vérifier la compréhension."
+      },
+      "trad": {
+        "titre": "L'examen oral : une façon pertinente et authentique d'évaluer les apprentissages à l'ère de l'IA",
+        "resume": "Guide pratique pour réintroduire les examens oraux, avec des questions de relance qui demandent aux étudiants d'expliquer leur raisonnement, comme format d'évaluation authentique à l'heure où les travaux écrits peuvent être générés par l'IA."
+      },
+      "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "campus-infolettre-nov",
+      "type": "article",
+      "lang": "fr",
+      "theme": "evaluation",
+      "date": "2026-11-12",
+      "title": "Campus de l'innovation pédagogique : infolettre de novembre 2026",
+      "authors": "Académie de Bordeaux",
+      "source": "Campus de l'innovation pédagogique",
+      "url": "https://ent2d.ac-bordeaux.fr/disciplines/sti-college/?p=23523",
+      "abstract": "Fil rouge du mois : l'évaluation. Trois webinaires (évaluation de projets, stratégies d'apprentissage, évaluation formative par la rétroaction le 4 décembre) et un appel à contributions jusqu'au 10 décembre.",
+      "resume": {
+        "q": "Que propose le Campus de l'innovation pédagogique ce mois-ci ?",
+        "m": "Infolettre mensuelle du réseau.",
+        "r": "Trois webinaires sur l'évaluation (projets, stratégies d'apprentissage, évaluation formative par la rétroaction le 4 décembre) et un appel à contributions jusqu'au 10 décembre.",
+        "p": "Le webinaire du 4 décembre sur la rétroaction est le plus directement utile à un concepteur de formation."
+      },
+      "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "depp-reperes-cm2-2026",
+      "type": "report",
+      "lang": "fr",
+      "theme": "evaluation",
+      "date": "2026-11",
+      "title": "Évaluations 2026 Repères CM2 – Résultats nationaux",
+      "authors": "Cédric Bourgeois et al.",
+      "source": "DEPP, document de travail n° 2026-E23",
+      "url": "https://www.education.gouv.fr/depp/evaluations-2026-reperes-cm2-resultats-nationaux-506751",
+      "abstract": "Résultats nationaux en français et mathématiques des élèves de CM2 évalués à la rentrée 2026, troisième année consécutive, avec l'évolution des écarts depuis 2024.",
+      "resume": {
+        "q": "Où en sont les élèves de CM2 en français et en maths à la rentrée 2026 ?",
+        "m": "Évaluation exhaustive de tous les CM2 à la rentrée, troisième édition ; document de travail de la DEPP.",
+        "r": "Résultats nationaux et évolution des écarts entre 2024 et 2026 ; chiffres détaillés dans le document.",
+        "p": "Utile pour situer les prérequis d'un public d'élèves ou concevoir des remédiations ciblées."
+      },
+      "vulga": "Chaque rentrée, tous les élèves de CM2 passent des tests de français et de maths. La DEPP, le service statistique de l'Éducation nationale, publie ici les résultats de 2026 et compare avec les deux années précédentes, notamment l'évolution des écarts entre écoles. C'est une photographie nationale du niveau à l'entrée au collège. Limite : un test de début d'année mesure des acquis à un instant donné, pas la qualité d'un enseignement.",
+      "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "letudiant-evals-2026",
+      "type": "article",
+      "lang": "fr",
+      "theme": "politiques",
+      "date": "2026-11-18",
+      "title": "Évaluations nationales 2026 : des résultats stables en 6e, mais des difficultés qui s'accentuent au collège et au lycée",
+      "authors": "Clément Rocher, Marine Ilario",
+      "source": "L'Étudiant",
+      "url": "https://www.letudiant.fr/college/evaluations-nationales-2026-des-resultats-stables-en-6e-mais-des-difficultes-qui-s-accentuent-au-college.html",
+      "abstract": "Synthèse des résultats publiés par le ministère : acquis stables en sixième, difficultés persistantes voire accrues dans les autres niveaux du collège et au lycée. Les données de l'académie de Toulouse ne sont pas incluses.",
+      "resume": {
+        "q": "Que montrent les évaluations nationales de la rentrée 2026 ?",
+        "m": "Article de synthèse à partir des résultats publiés par le ministère le 18 novembre.",
+        "r": "Acquis stables en 6e, difficultés persistantes voire accrues ailleurs au collège et au lycée ; données de l'académie de Toulouse absentes.",
+        "p": "Contexte utile pour anticiper le niveau des publics qui arriveront en formation."
+      },
+      "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "cafe-curiosite-ia",
+      "type": "article",
+      "lang": "fr",
+      "theme": "ia",
+      "date": "2026-11-13",
+      "title": "Pour une pédagogie de la curiosité et de l'envie d'apprendre à l'ère de l'IA",
+      "authors": "",
+      "source": "Le Café pédagogique",
+      "url": "https://www.cafepedagogique.net/2026/11/13/pour-une-pedagogie-de-la-curiosite-et-de-lenvie-dapprendre-a-lere-de-lia/",
+      "abstract": "Tribune qui défend quatre piliers de l'apprendre (observer, expérimenter, interagir, réfléchir) face aux craintes que suscite l'IA générative, en s'appuyant notamment sur les propositions d'Yves Citton.",
+      "resume": {
+        "q": "Comment préserver l'envie d'apprendre quand l'IA donne des réponses instantanées ?",
+        "m": "Tribune d'idées.",
+        "r": "Défense de quatre piliers de l'apprendre (observer, expérimenter, interagir, réfléchir), avec un appui sur les propositions d'Yves Citton pour l'éducation.",
+        "p": "Grille simple pour vérifier qu'une séquence garde des temps d'exploration et de réflexion que l'IA ne remplace pas."
+      },
+      "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "cafe-guide-francais-ia",
+      "type": "article",
+      "lang": "fr",
+      "theme": "ia",
+      "date": "2026-11-09",
+      "title": "Un guide pour enseigner le français à l'heure de l'IA",
+      "authors": "",
+      "source": "Le Café pédagogique",
+      "url": "https://www.cafepedagogique.net/2026/11/09/un-guide-pour-enseigner-le-francais-a-lheure-de-lia/",
+      "abstract": "Présentation d'un guide de 45 propositions concrètes pour les professeurs de français. L'article cite une étude d'octobre 2026 selon laquelle 54 % des futurs enseignants reprennent telles quelles les activités générées par ChatGPT.",
+      "resume": {
+        "q": "Comment intégrer l'IA dans l'enseignement du français ?",
+        "m": "Présentation d'un guide pratique.",
+        "r": "45 propositions concrètes (séquences, différenciation, chatbot-personnage, joute littéraire, escape game, révisions). Une étude d'octobre 2026 citée : 54 % des futurs enseignants reprennent sans les modifier les activités produites par ChatGPT.",
+        "p": "Le chiffre de 54 % est un bon rappel : toujours relire et adapter ce que l'IA propose avant de l'utiliser en formation."
+      },
+      "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "cafe-japprends-avec-ia",
+      "type": "article",
+      "lang": "fr",
+      "theme": "ia",
+      "date": "2026-11-14",
+      "title": "14 ressources mises en avant par le Café pédagogique (dont « J'apprends avec l'IA »)",
+      "authors": "",
+      "source": "Le Café pédagogique",
+      "url": "https://www.cafepedagogique.net/2026/11/14/14-ressources-mises-en-avant-par-le-cafe-pedagogique-3/",
+      "abstract": "Sélection hebdomadaire. À retenir : J'apprends avec l'IA (Magnard, 2026) de Mickaël Bertrand, 40 fiches pour les élèves de la 4e à la terminale associant un besoin scolaire, une stratégie d'apprentissage et un prompt adaptable.",
+      "resume": {
+        "q": "Quelles ressources retenir cette semaine ?",
+        "m": "Sélection hebdomadaire du Café pédagogique.",
+        "r": "Mise en avant de J'apprends avec l'IA (Magnard, 2026) de Mickaël Bertrand : 40 fiches associant un besoin scolaire, une stratégie d'apprentissage et un prompt adaptable.",
+        "p": "Le format « besoin → stratégie → prompt » est facile à transposer pour des apprenants adultes."
+      },
+      "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "cafe-ecole-face-ia",
+      "type": "article",
+      "lang": "fr",
+      "theme": "ia",
+      "date": "2026-10-18",
+      "title": "16 ressources mises en avant (dont la lecture de « L'École face à l'IA » par Dominique Bucheton)",
+      "authors": "",
+      "source": "Le Café pédagogique",
+      "url": "https://www.cafepedagogique.net/2026/10/18/16-ressources-mises-en-avant-par-le-cafe-pedagogique/",
+      "abstract": "Dominique Bucheton recommande vivement L'École face à l'IA de Jean-Michel Le Baut, ouvrage à la fois politique, didactique et pédagogique sur le « pacte » éducatif à l'ère de l'IA générative.",
+      "resume": {
+        "q": "Quel livre lire pour prendre du recul sur l'école et l'IA ?",
+        "m": "Note de lecture de Dominique Bucheton, professeure honoraire des universités.",
+        "r": "Recommandation forte de L'École face à l'IA de Jean-Michel Le Baut, ouvrage politique, didactique et pédagogique.",
+        "p": "Lecture de fond pour nourrir une réflexion d'équipe sur la place de l'IA dans les dispositifs."
+      },
+      "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "eduscol-edunum-65",
+      "type": "report",
+      "lang": "fr",
+      "theme": "ia",
+      "date": "2026-10",
+      "title": "Cahier EduNum économie-gestion n° 65 : l'IA comme levier d'ingénierie pédagogique",
+      "authors": "Eduscol",
+      "source": "Ministère de l'Éducation nationale (Eduscol)",
+      "url": "https://eduscol.education.gouv.fr/sites/default/files/document/cahier-edunum-economie-gestion-ndeg-65-octobre-2026-130434.pdf",
+      "abstract": "Retours d'expérience de huit enseignants et environ 150 élèves et étudiants (STMG, STS) : l'IA au service de la différenciation, du tutorat et de l'esprit critique, par exemple en comparant plusieurs IA conversationnelles avec compar:IA.",
+      "resume": {
+        "q": "Comment des enseignants utilisent-ils l'IA comme outil d'ingénierie pédagogique ?",
+        "m": "Recueil de pratiques : huit enseignants, environ 150 élèves et étudiants en STMG et STS.",
+        "r": "Usages pour la différenciation, le tutorat et l'esprit critique, par exemple la comparaison de plusieurs IA conversationnelles avec compar:IA.",
+        "p": "Exemples concrets transposables, notamment l'activité de comparaison d'IA pour développer le regard critique."
+      },
+      "vulga": "Ce cahier du ministère raconte comment huit professeurs d'économie-gestion ont intégré l'IA dans leurs cours, avec environ 150 élèves. Par exemple, faire comparer aux élèves les réponses de plusieurs IA sur une même question, pour qu'ils constatent qu'elles ne disent pas toutes la même chose. Comme goûter plusieurs vins à l'aveugle pour apprendre à juger. Limite : ce sont des témoignages de terrain, pas une évaluation de l'efficacité.",
+      "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "cafe-webinaire-cahiers-606",
+      "type": "article",
+      "lang": "fr",
+      "theme": "ia",
+      "date": "2026-09-24",
+      "title": "Webinaire : faire classe à l'ère de l'IA (Cahiers pédagogiques n° 606)",
+      "authors": "",
+      "source": "Le Café pédagogique",
+      "url": "https://www.cafepedagogique.net/2026/09/24/webinaire-faire-classe-a-lere-de-lia/",
+      "abstract": "Autour du numéro 606 des Cahiers pédagogiques, des enseignants de toutes disciplines partagent leurs pratiques avec l'IA ; le webinaire du 3 octobre est animé par Julie Higounet et Jean-Michel Zakhartchouk.",
+      "resume": {
+        "q": "Que propose le numéro des Cahiers pédagogiques sur l'IA ?",
+        "m": "Annonce d'un webinaire autour du n° 606 « Faire classe à l'ère de l'IA ».",
+        "r": "Témoignages d'enseignants de toutes disciplines ; webinaire du 3 octobre animé par Julie Higounet et Jean-Michel Zakhartchouk.",
+        "p": "Le numéro 606 est une bonne banque de pratiques concrètes ; le webinaire est passé, mais le numéro reste disponible."
+      },
+      "addedAt": "2026-11-20T18:40:00+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "iza-pisa2025-chatbots",
+      "type": "paper",
+      "lang": "en",
+      "theme": "ia",
+      "date": "2026-11",
+      "title": "Generative AI and Adolescent Skills in Richer and Poorer Countries: Evidence from PISA 2025",
+      "authors": "Jere R. Behrman, Hai-Anh H. Dang, Minh N.N. Do",
+      "source": "IZA Discussion Paper No. 19096",
+      "url": "https://www.iza.org/publications/dp/19096",
+      "abstract": "Using PISA 2025 data on 596,168 fifteen-year-olds in 79 countries and economies, the authors relate chatbot use to test scores and map inequalities in use. Weekly use overall is barely linked to scores (+2.0 points), but students who mostly use chatbots to learn rather than to summarise or draft texts score 18.5 points higher than comparable schoolmates, a gap positive in 77 of 78 countries. Advantaged students use chatbots for learning about 11 percentage points more often; the data are cross-sectional, so prior achievement may explain part of the gap.",
+      "resume": {
+        "q": "L'usage des chatbots par les adolescents est-il lié à leurs compétences, et cet usage est-il inégal entre pays et entre élèves ?",
+        "m": "Analyse transversale des données PISA 2025 : 596 168 élèves de 15 ans dans 79 pays et économies (35 à revenu intermédiaire, 44 à revenu élevé), comparaison entre élèves d'une même école.",
+        "r": "L'usage hebdomadaire en général est à peine lié aux scores (+2,0 points). Les élèves qui s'en servent surtout pour apprendre, plutôt que pour résumer ou rédiger, ont 18,5 points de plus (près d'un cinquième d'écart-type), écart positif dans 77 pays sur 78. 47,9 % des élèves s'en servent chaque semaine pour apprendre ; les élèves favorisés environ 11 points de plus.",
+        "p": "Ce n'est pas l'outil mais l'usage qui compte : en formation, cadrer l'IA comme aide à comprendre plutôt que comme rédacteur du livrable, et veiller à ce que les apprenants moins favorisés reçoivent ce cadrage."
+      },
+      "vulga": "Les ados qui utilisent des chatbots ont-ils de meilleurs résultats ? L'étude, menée sur près de 600 000 élèves, répond : ça dépend de l'usage. C'est comme une calculatrice : s'en servir pour vérifier son raisonnement aide, s'en servir pour ne plus réfléchir n'aide pas. Les élèves qui demandent au chatbot de leur expliquer des choses réussissent mieux que ceux qui lui font rédiger ou résumer leurs textes. En pratique : montrer aux apprenants comment poser des questions à l'IA plutôt que lui confier la tâche. Limite : c'est une photographie à un instant donné (étude transversale) ; les bons élèves utilisent peut-être déjà l'IA autrement, sans que l'IA en soit la cause.",
+      "trad": {
+        "titre": "IA générative et compétences des adolescents dans les pays riches et plus pauvres : données de PISA 2025",
+        "resume": "À partir des données de PISA 2025 portant sur 596 168 jeunes de quinze ans dans 79 pays et économies, les auteurs relient l'usage des chatbots aux scores aux tests et cartographient les inégalités d'usage. L'usage hebdomadaire global est à peine lié aux scores (+2,0 points), mais les élèves qui utilisent surtout les chatbots pour apprendre plutôt que pour résumer ou rédiger des textes obtiennent 18,5 points de plus que des camarades d'école comparables, un écart positif dans 77 pays sur 78. Les élèves favorisés utilisent les chatbots pour apprendre environ 11 points de pourcentage plus souvent ; les données sont transversales, si bien que le niveau antérieur pourrait expliquer une partie de l'écart."
+      },
+      "addedAt": "2026-11-27T05:49:35+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "edweek-teacher-ai-plateau",
+      "type": "article",
+      "lang": "en",
+      "theme": "ia",
+      "date": "2026-11-25",
+      "title": "Why Teacher AI Use Has Plateaued, and What Could Come Next",
+      "authors": "Lauraine Langreo",
+      "source": "Education Week (EdWeek Research Center)",
+      "url": "https://www.edweek.org/technology/why-teacher-ai-use-has-plateaued-and-what-could-come-next/2026/11",
+      "abstract": "A nationally representative EdWeek Research Center survey of 590 U.S. teachers (August–October 2026) finds that 62% use AI tools in class at least a little, versus 61% in 2025, after use nearly doubled from 34% in 2023. 64% had received at least one AI training session. Experts quoted link the plateau to saturation, an ed-tech backlash and missing guidance and training.",
+      "resume": {
+        "q": "Pourquoi l'usage de l'IA par les enseignants américains a-t-il cessé de progresser ?",
+        "m": "Article appuyé sur une enquête représentative de l'EdWeek Research Center auprès de 590 enseignants (août à octobre 2026), complétée par une enquête RAND et des avis d'experts (ISTE, Boston College).",
+        "r": "62 % utilisent l'IA en classe cette année contre 61 % en 2025, après un bond de 34 % à 61 % entre 2023 et 2025. 64 % ont suivi au moins une formation à l'IA. Les experts évoquent saturation, rejet du numérique et manque d'accompagnement.",
+        "p": "Former à l'IA ne suffit pas à en généraliser l'usage : il faut des consignes claires et des usages pédagogiques précis, sinon l'adoption plafonne."
+      },
+      "trad": {
+        "titre": "Pourquoi l'usage de l'IA par les enseignants plafonne, et ce qui pourrait suivre",
+        "resume": "Une enquête représentative à l'échelle nationale de l'EdWeek Research Center auprès de 590 enseignants américains (août-octobre 2026) montre que 62 % utilisent des outils d'IA en classe au moins un peu, contre 61 % en 2025, après un quasi-doublement de l'usage depuis 34 % en 2023. 64 % avaient suivi au moins une séance de formation à l'IA. Les experts cités relient ce plafonnement à la saturation, à un rejet des technologies éducatives et au manque de consignes et de formation."
+      },
+      "addedAt": "2026-11-27T05:49:35+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "liu-genai-self-explanation-2026",
+      "type": "paper",
+      "lang": "en",
+      "theme": "ia",
+      "date": "2026-11-25",
+      "title": "GenAI-supported self-explanation and its effects on metacognitive monitoring and critical reading comprehension: evidence from two experimental studies",
+      "authors": "Caiyan Liu, Tao Xin, Zhihui Cai",
+      "source": "International Journal of Educational Technology in Higher Education, 23, art. 67",
+      "url": "https://doi.org/10.1186/s41239-026-00645-2",
+      "abstract": "Two experiments with Chinese university students tested whether generative AI feedback on self-explanations improves critical reading and the accuracy of learners' self-judgements. In Study 1 (n = 119), self-explanation with personalised AI feedback yielded the highest comprehension (M = 11.4 vs 9.2 and 8.6; partial η² = .195) and led learners to slightly underestimate rather than overestimate themselves. In Study 2 (n = 113), scaffolded prompts improved self-explanation quality and monitoring accuracy compared with no prompts, but not comprehension.",
+      "resume": {
+        "q": "Un retour d'IA générative sur les auto-explications des étudiants améliore-t-il la lecture critique et la justesse de leur auto-évaluation (monitoring métacognitif) ?",
+        "m": "Deux expériences randomisées dans une université chinoise : étude 1 (119 étudiants) avec auto-explication + retour IA, auto-explication seule ou lecture seule ; étude 2 (113 étudiants) avec consignes d'auto-explication guidées, standard ou absentes.",
+        "r": "Étude 1 : meilleure compréhension avec retour IA (11,4 contre 9,2 et 8,6 ; η² partiel = 0,195) ; ce groupe se sous-estime légèrement (−1,4) alors que les autres se surestiment. Étude 2 : les consignes guidées améliorent la qualité des explications et la justesse du jugement, sans effet sur la compréhension.",
+        "p": "Demander aux apprenants d'expliquer avec leurs mots puis leur donner un retour (humain ou IA) est une piste solide ; une simple consigne d'auto-explication ne suffit pas toujours à faire progresser la compréhension."
+      },
+      "vulga": "Expliquer à voix haute ce qu'on vient de lire aide-t-il à mieux comprendre, surtout si une IA commente ces explications ? Imaginez réciter une leçon à un ami qui vous dit « là, c'est flou ». Les étudiants qui ont reçu ce retour de l'IA ont mieux compris des textes argumentatifs et sont devenus plus prudents sur leur propre niveau, au lieu de se croire meilleurs qu'ils ne sont (ce que les chercheurs appellent le « monitoring métacognitif », la capacité à juger ce qu'on sait). En pratique : faire reformuler, puis commenter la reformulation. Limite : une seule université, et un groupe avec IA qui a passé plus de temps sur la tâche.",
+      "trad": {
+        "titre": "Auto-explication soutenue par l'IA générative et effets sur le contrôle métacognitif et la compréhension critique en lecture : données de deux études expérimentales",
+        "resume": "Deux expériences menées auprès d'étudiants d'université chinois ont testé si un retour d'IA générative sur les auto-explications (self-explanations) améliore la lecture critique et la justesse des jugements que les apprenants portent sur eux-mêmes. Dans l'étude 1 (n = 119), l'auto-explication avec retour personnalisé de l'IA a donné la meilleure compréhension (M = 11,4 contre 9,2 et 8,6 ; η² partiel = 0,195) et a conduit les apprenants à se sous-estimer légèrement plutôt qu'à se surestimer. Dans l'étude 2 (n = 113), des consignes guidées (scaffolded prompts) ont amélioré la qualité des auto-explications et la justesse du contrôle métacognitif (monitoring) par rapport à l'absence de consigne, mais pas la compréhension."
+      },
+      "addedAt": "2026-11-27T05:49:35+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "ecole-branchee-reviser-ia",
+      "type": "article",
+      "lang": "fr",
+      "theme": "ia",
+      "date": "2026-11-24",
+      "title": "Réviser avec l'IA sans lui abandonner son raisonnement",
+      "authors": "Faysal Hafidi",
+      "source": "L'École branchée (Voix de la communauté)",
+      "url": "https://ecolebranchee.com/reviser-ia-sans-abandonner-raisonnement/",
+      "abstract": "Un praticien propose aux élèves du secondaire une routine en trois temps pour réviser avec l'IA : essayer seul, demander une aide ciblée (indice, question, contre-exemple) plutôt que la solution, puis refaire sans l'outil. Il rappelle que ces consignes ne garantissent ni l'exactitude des réponses ni leur respect par l'outil.",
+      "resume": {
+        "q": "Comment réviser avec une IA sans lui déléguer la réflexion ?",
+        "m": "Texte de praticien (learning coach), sans données ni études ; la seule source citée provient de la structure de l'auteur.",
+        "r": "Une séquence « seul, avec l'IA, puis seul » en trois questions : que sais-je déjà faire ? quelle aide demander sans tout déléguer ? que puis-je refaire maintenant sans l'IA ? Vérifier les réponses reste indispensable.",
+        "p": "Routine simple à transposer en formation d'adultes : tentative préalable, aide par indices, puis restitution autonome (proche de la pratique de récupération)."
+      },
+      "addedAt": "2026-11-27T05:49:35+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "dangelo-trench-thematic-diversity",
+      "type": "paper",
+      "lang": "en",
+      "theme": "cognition",
+      "date": "2026-11-26",
+      "title": "Thematic diversity of examples aids university students in recognizing instances of abstract concepts beyond the domains of the examples",
+      "authors": "Verónica D'Angelo, Máximo Trench",
+      "source": "Instructional Science, 55, art. 1 (2027)",
+      "url": "https://doi.org/10.1007/s11251-026-09830-2",
+      "abstract": "Two experiments with health-sciences undergraduates (N = 60 and N = 72) tested whether examples drawn from varied domains help learners recognise new instances of abstract relational concepts. Students learned five concepts, each with a definition and three examples from one domain or from three. Varied examples improved classification of new cases from uncovered domains in both experiments, without lowering performance on covered domains or on rejecting near misses.",
+      "resume": {
+        "q": "Varier les domaines des exemples aide-t-il à reconnaître un concept abstrait dans des situations nouvelles ?",
+        "m": "Deux expériences auprès d'étudiants en sciences de la santé (60 puis 72) : cinq concepts relationnels, chacun avec une définition et trois exemples tirés d'un seul domaine ou de trois domaines différents ; test sur exemples vus, cas nouveaux et « quasi-exemples » trompeurs.",
+        "r": "Les exemples variés améliorent la reconnaissance de cas issus de domaines non couverts, dans les deux expériences, sans pénaliser les cas des domaines couverts ni le rejet des quasi-exemples. Tailles d'effet non précisées dans le résumé disponible.",
+        "p": "Pour enseigner un principe (ex. un biais, une règle de sécurité), puiser les exemples dans des contextes métiers différents plutôt que dans un seul favorise le transfert."
+      },
+      "vulga": "Pour qu'un apprenant reconnaisse une notion dans une situation qu'il n'a jamais vue, vaut-il mieux des exemples tous du même univers ou d'univers différents ? Pensez à apprendre ce qu'est un « effet domino » : avec trois exemples tirés de la finance, on le voit surtout en finance ; avec un exemple en finance, un en écologie et un en santé, on le repère partout. C'est ce que suggère l'étude : les exemples variés aident à reconnaître la notion ailleurs, sans rien coûter sur le reste. En pratique : diversifier les contextes de vos exemples. Limite : petits échantillons d'une seule université, et effets chiffrés non accessibles.",
+      "trad": {
+        "titre": "La diversité thématique des exemples aide les étudiants à reconnaître des cas de concepts abstraits au-delà des domaines des exemples",
+        "resume": "Deux expériences menées auprès d'étudiants de licence en sciences de la santé (N = 60 et N = 72) ont testé si des exemples tirés de domaines variés aident les apprenants à reconnaître de nouveaux cas de concepts relationnels abstraits. Les étudiants apprenaient cinq concepts, chacun avec une définition et trois exemples issus d'un seul domaine ou de trois. Les exemples variés ont amélioré la classification de nouveaux cas issus de domaines non couverts dans les deux expériences, sans diminuer la performance sur les domaines couverts ni sur le rejet des quasi-exemples (near misses)."
+      },
+      "addedAt": "2026-11-27T05:49:35+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "hefter-berthold-self-explanation-physics",
+      "type": "paper",
+      "lang": "en",
+      "theme": "cognition",
+      "date": "2026-11-22",
+      "title": "Self-Explanation Quality Predicts the Effects of a Training Intervention on Instructional Knowledge in Physics",
+      "authors": "Markus H. Hefter, Kirsten Berthold",
+      "source": "Applied Cognitive Psychology, 40(6), e70321",
+      "url": "https://doi.org/10.1002/acp.70321",
+      "abstract": "107 high-school students took a 30-minute digital training on three strategies for dealing with physics misconceptions (ignoring, refuting, integrating), with or without self-explanation prompts. Three weeks later, the prompted group knew more about the strategies, and the quality of their self-explanations during training predicted this gain. Misconceptions were reduced for at least three weeks; effect sizes are not reported in the abstract.",
+      "resume": {
+        "q": "Une courte formation numérique avec consignes d'auto-explication améliore-t-elle la connaissance de stratégies pour traiter les idées fausses en physique ?",
+        "m": "Expérience auprès de 107 lycéens : formation de 30 minutes sur trois stratégies (ignorer, réfuter, intégrer la conception erronée), avec ou sans consignes d'auto-explication ; mesure trois semaines plus tard.",
+        "r": "Le groupe avec consignes connaît mieux les stratégies à trois semaines, et la qualité des auto-explications prédit ce gain. Les idées fausses reculent pendant au moins trois semaines. Tailles d'effet non précisées dans le résumé disponible.",
+        "p": "Ce n'est pas la consigne elle-même mais la qualité de ce que l'apprenant produit qui compte : prévoir de relire et d'étayer les explications des apprenants."
+      },
+      "vulga": "Faire expliquer à un apprenant pourquoi une méthode marche l'aide-t-il à la retenir ? Comme un cuisinier qui commente chaque geste pour un stagiaire, verbaliser oblige à relier les étapes entre elles. Dans cette étude, des lycéens à qui l'on demandait de s'expliquer pendant une courte formation retenaient mieux, trois semaines plus tard, les façons de corriger une idée fausse en physique ; et plus leurs explications étaient de qualité, plus ils progressaient. À retenir : une consigne « explique avec tes mots » est utile, mais il faut vérifier ce qui est produit. Limite : un seul domaine, et un groupe témoin sans aucune consigne.",
+      "trad": {
+        "titre": "La qualité des auto-explications prédit les effets d'une formation sur les connaissances pédagogiques en physique",
+        "resume": "107 lycéens ont suivi une formation numérique de 30 minutes sur trois stratégies pour traiter les conceptions erronées (misconceptions) en physique (les ignorer, les réfuter, les intégrer), avec ou sans consignes d'auto-explication (self-explanation prompts). Trois semaines plus tard, le groupe ayant reçu les consignes connaissait mieux les stratégies, et la qualité de ses auto-explications pendant la formation prédisait ce gain. Les conceptions erronées ont diminué pendant au moins trois semaines ; les tailles d'effet ne sont pas indiquées dans le résumé."
+      },
+      "addedAt": "2026-11-27T05:49:35+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "wijnia-urhahne-effort-2026",
+      "type": "paper",
+      "lang": "en",
+      "theme": "cognition",
+      "date": "2026-11-23",
+      "title": "Effort as a Key Construct in Learning and Performance",
+      "authors": "Lisette Wijnia, Detlef Urhahne",
+      "source": "Educational Psychology Review, 38, art. 142",
+      "url": "https://doi.org/10.1007/s10648-026-10236-2",
+      "abstract": "This integrative review defines effort as the intensity and persistence of goal-directed activity aimed at overcoming obstacles, and distinguishes it from fatigue, grit and task difficulty. It organises research on the antecedents, moderators, correlates and outcomes of effort across personality, motivation, instruction, cognition and metacognition. Effort is moderately associated with achievement and is usually accompanied by negative, sometimes positive, emotions; the authors derive context-dependent implications for teaching.",
+      "resume": {
+        "q": "Qu'est-ce que l'effort en apprentissage, et que sait-on de ses causes et de ses effets ?",
+        "m": "Revue conceptuelle et intégrative (non empirique) qui définit l'effort et le distingue de la fatigue, de la persévérance (grit) et de la difficulté de la tâche, puis organise la littérature.",
+        "r": "L'effort est modérément lié à la réussite et s'accompagne le plus souvent d'émotions négatives, parfois positives ; ses déterminants relèvent de la personnalité, de la motivation, de l'enseignement et de la métacognition. Aucun chiffre agrégé dans le résumé disponible.",
+        "p": "Utile pour accompagner les « difficultés désirables » : expliquer aux apprenants qu'un effort ressenti comme pénible n'est pas un signe d'échec."
+      },
+      "vulga": "Pourquoi certains apprenants s'accrochent-ils et d'autres décrochent-ils devant une tâche difficile ? Cette revue fait le point sur l'effort, défini comme l'intensité et la durée de l'engagement pour franchir un obstacle. Pensez à une montée à vélo : l'effort n'est ni la fatigue qu'on ressent ensuite, ni la pente elle-même. Les auteurs rappellent que l'effort est modérément lié à la réussite et qu'il est souvent désagréable, ce qui pousse à l'éviter. En pratique : prévenir les apprenants que « c'est dur » ne veut pas dire « je n'y arrive pas ». Limite : synthèse de travaux existants, sans nouvelles données.",
+      "trad": {
+        "titre": "L'effort, une notion clé de l'apprentissage et de la performance",
+        "resume": "Cette revue intégrative définit l'effort comme l'intensité et la persistance d'une activité orientée vers un but et visant à surmonter des obstacles, et le distingue de la fatigue, de la persévérance (grit) et de la difficulté de la tâche. Elle organise les recherches sur les antécédents, les modérateurs, les corrélats et les effets de l'effort à travers la personnalité, la motivation, l'enseignement, la cognition et la métacognition. L'effort est modérément associé à la réussite et s'accompagne généralement d'émotions négatives, parfois positives ; les auteurs en tirent des implications pédagogiques qui dépendent du contexte."
+      },
+      "addedAt": "2026-11-27T05:49:35+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "learning-scientists-forgetting-2026",
+      "type": "article",
+      "lang": "en",
+      "theme": "cognition",
+      "date": "2026-11-26",
+      "title": "This Thanksgiving, Be Thankful for Forgetting",
+      "authors": "Megan Sumeracki",
+      "source": "The Learning Scientists (blog)",
+      "url": "https://www.learningscientists.org/blog/2026/11/26",
+      "abstract": "Using a two-week break before a final exam as a case, the post explains the forgetting curve, spacing and desirable difficulties, drawing on classic studies. Some forgetting makes the next retrieval more effortful and learning more durable, while fully forgotten material must be relearned. It recommends opening the first class after a break with low-stakes retrieval such as a brain dump or ungraded questions.",
+      "resume": {
+        "q": "L'oubli pendant une pause (vacances) est-il forcément une mauvaise nouvelle pour l'apprentissage ?",
+        "m": "Billet de vulgarisation d'une chercheuse en psychologie cognitive, appuyé sur des travaux classiques (Ebbinghaus, Cepeda et al. 2006, Bjork & Bjork 2011) ; pas de nouvelles données.",
+        "r": "Un oubli partiel rend la récupération suivante plus coûteuse et l'apprentissage plus durable (difficulté désirable) ; ce qui est totalement oublié doit être réappris. Recommandation : démarrer après une pause par une récupération à faibles enjeux.",
+        "p": "Après une interruption de formation, commencer par un « vide-mémoire » ou quelques questions non notées plutôt que par un résumé du formateur."
+      },
+      "trad": {
+        "titre": "En ce Thanksgiving, soyez reconnaissants d'oublier",
+        "resume": "En prenant l'exemple d'une pause de deux semaines avant un examen final, le billet explique la courbe de l'oubli (forgetting curve), l'espacement (spacing) et les difficultés désirables (desirable difficulties), en s'appuyant sur des études classiques. Un certain oubli rend la récupération suivante plus coûteuse et l'apprentissage plus durable, tandis qu'un contenu complètement oublié doit être réappris. Il recommande d'ouvrir le premier cours après une pause par une récupération à faibles enjeux, comme un « vide-mémoire » (brain dump) ou des questions non notées."
+      },
+      "addedAt": "2026-11-27T05:49:35+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "takahashi-uesaka-ips-review",
+      "type": "paper",
+      "lang": "en",
+      "theme": "charge",
+      "date": "2026-11-20",
+      "title": "Reconsidering Instruction Followed by Problem Solving (I-PS): A Systematic Review Focusing on Design Features",
+      "authors": "Kotaro Takahashi, Yuri Uesaka",
+      "source": "Educational Psychology Review, 38, art. 141",
+      "url": "https://doi.org/10.1007/s10648-026-10226-4",
+      "abstract": "This systematic review of 23 articles (33 experiments) re-examines the reported advantage of problem solving before instruction (PS-I, productive failure) by coding the design features of both sequences, including a proposed I-PS feature, practice tasks that go beyond procedures. Only one experiment included features of both sequences and found no difference. PS-I tended to win on conceptual and transfer outcomes when its features were present, but never when the I-PS condition included deeper practice, while I-PS tended to win on procedural outcomes.",
+      "resume": {
+        "q": "L'avantage attribué à « chercher d'abord, cours ensuite » (échec productif) tient-il quand la séquence « cours d'abord » est elle aussi bien conçue ?",
+        "m": "Revue systématique de 23 articles (33 expériences) codant les caractéristiques de conception des deux séquences, dont une nouvelle pour la séquence cours-puis-problème : des exercices qui vont au-delà de la procédure. Accord inter-juges κ = 0,88.",
+        "r": "Une seule expérience comparait deux séquences bien conçues : pas de différence. L'échec productif l'emporte sur la compréhension et le transfert quand ses caractéristiques sont présentes, mais jamais face à un cours suivi d'exercices approfondis ; le cours d'abord l'emporte sur les procédures.",
+        "p": "Le débat « problème d'abord ou cours d'abord » compte moins que la qualité des activités : après un exposé, prévoir des tâches qui demandent de comprendre et non seulement d'appliquer."
+      },
+      "vulga": "Faut-il laisser les apprenants chercher seuls avant de leur expliquer, ou expliquer d'abord ? On dit souvent que chercher d'abord (l'« échec productif ») fait mieux comprendre. Cette revue montre que les comparaisons étaient souvent déséquilibrées : un peu comme comparer un plat de chef à un plat réchauffé. Quand le cours est suivi d'exercices qui font vraiment réfléchir, l'avantage de « chercher d'abord » disparaît ; pour apprendre une procédure, expliquer d'abord reste préférable. En pratique : soigner les activités qui suivent l'exposé. Limite : études trop hétérogènes pour une méta-analyse chiffrée, et une seule comparaison vraiment équilibrée.",
+      "trad": {
+        "titre": "Reconsidérer l'enseignement suivi de résolution de problèmes (I-PS) : une revue systématique centrée sur les caractéristiques de conception",
+        "resume": "Cette revue systématique de 23 articles (33 expériences) réexamine l'avantage rapporté de la résolution de problèmes avant l'enseignement (PS-I, échec productif ou productive failure) en codant les caractéristiques de conception des deux séquences, dont une caractéristique proposée pour la séquence I-PS : des exercices qui vont au-delà des procédures. Une seule expérience incluait des caractéristiques des deux séquences et n'a trouvé aucune différence. PS-I tendait à l'emporter sur les résultats conceptuels et de transfert lorsque ses caractéristiques étaient présentes, mais jamais lorsque la condition I-PS comportait des exercices approfondis, tandis qu'I-PS tendait à l'emporter sur les résultats procéduraux."
+      },
+      "addedAt": "2026-11-27T05:49:35+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "candido-ar-signaling-2026",
+      "type": "paper",
+      "lang": "en",
+      "theme": "charge",
+      "date": "2026-11-20",
+      "title": "Enhancing Procedural Learning Through Refined Signaling in Head-Mounted AR Environments",
+      "authors": "Vito Candido, Alberto Cattaneo, Dominik Petko",
+      "source": "Technology, Knowledge and Learning",
+      "url": "https://doi.org/10.1007/s10758-026-10059-8",
+      "abstract": "In a quasi-experiment with 98 Swiss vocational students, two versions of a head-mounted augmented reality app taught a procedural task; the refined version added static 3-D markers and hand tracking that released each step only when hands were correctly placed. The refined signalling lowered extraneous cognitive load, raised self-reported attention and improved first-attempt success during guided practice (91.4% vs 78.6%). These gains did not carry over to retention or transfer.",
+      "resume": {
+        "q": "Une signalisation plus précise dans une application de réalité augmentée réduit-elle la charge cognitive et améliore-t-elle l'apprentissage d'une procédure ?",
+        "m": "Quasi-expérience (sans tirage au sort) auprès de 98 apprentis suisses de 15 à 35 ans, deux cohortes : version 1 avec animations et tolérance de 7 cm, version 2 avec repères 3D fixes et suivi des mains (tolérance 2 cm).",
+        "r": "La version 2 réduit la charge cognitive extrinsèque, augmente l'attention déclarée et améliore la réussite du premier essai en phase guidée (91,4 % contre 78,6 %). Aucun gain en rétention ni en transfert.",
+        "p": "Bien guider réduit les erreurs pendant l'entraînement, mais ne garantit pas la mémorisation : prévoir des essais sans guidage pour consolider."
+      },
+      "vulga": "Des repères visuels plus précis dans un casque de réalité augmentée aident-ils à apprendre un geste ? C'est comme le GPS : avec des indications très claires, on se trompe moins de route, mais on ne retient pas forcément le chemin. Ici, de jeunes apprentis apprenaient à plier un vêtement : la version la plus guidée a réduit l'effort mental inutile (la « charge extrinsèque », ce qui fatigue sans faire apprendre) et les erreurs pendant l'exercice, sans meilleur souvenir ensuite. En pratique : alterner guidage fort et essais en autonomie. Limite : pas de répartition au hasard, petit échantillon surtout masculin, attention mesurée par questionnaire.",
+      "trad": {
+        "titre": "Améliorer l'apprentissage procédural grâce à une signalisation affinée dans des environnements de réalité augmentée sur casque",
+        "resume": "Dans une quasi-expérience menée auprès de 98 apprentis suisses de la formation professionnelle, deux versions d'une application de réalité augmentée sur casque enseignaient une tâche procédurale ; la version affinée ajoutait des repères 3D fixes et un suivi des mains qui ne libérait chaque étape que lorsque les mains étaient bien placées. La signalisation (signaling) affinée a réduit la charge cognitive extrinsèque (extraneous load), augmenté l'attention déclarée et amélioré la réussite au premier essai pendant la pratique guidée (91,4 % contre 78,6 %). Ces gains ne se sont pas retrouvés en rétention ni en transfert."
+      },
+      "addedAt": "2026-11-27T05:49:35+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "bostwick-lri-maths-2026",
+      "type": "paper",
+      "lang": "en",
+      "theme": "charge",
+      "date": "2026-11-20",
+      "title": "Load Reduction instruction in mathematics: a multilevel investigation into associations among student and teacher reported instruction and mathematics achievement",
+      "authors": "Keiko C. P. Bostwick, Robin P. Nagy, Andrew J. Martin, Rebecca J. Collie",
+      "source": "Educational Psychology (Taylor & Francis)",
+      "url": "https://doi.org/10.1080/01443410.2026.2762816",
+      "abstract": "This multilevel study of 927 students in 56 mathematics classes taught by 26 teachers examines how load reduction instruction, a cognitive-load-based approach that gradually withdraws guidance, relates to achievement. Student-reported use was positively associated with achievement, most strongly for students with lower prior achievement, and teacher-reported use was positively associated at class level. Student and teacher reports were not significantly related, suggesting they capture different views of the same teaching.",
+      "resume": {
+        "q": "L'enseignement à charge réduite (guidage fort puis retrait progressif, inspiré de la théorie de la charge cognitive) est-il associé à de meilleurs résultats en mathématiques ?",
+        "m": "Étude corrélationnelle multiniveau : 927 élèves dans 56 classes de mathématiques de 26 enseignants ; perceptions des élèves et déclarations des enseignants.",
+        "r": "La perception de cet enseignement par les élèves est liée positivement à la réussite, surtout chez les élèves au niveau antérieur faible ; au niveau de la classe, les déclarations des enseignants le sont aussi (preuve jugée limitée). Élèves et enseignants ne décrivent pas la même chose. Coefficients non précisés dans le résumé disponible.",
+        "p": "Le guidage fort suivi d'un retrait progressif semble surtout profiter aux débutants ; recueillir aussi le ressenti des apprenants, qui ne coïncide pas avec celui du formateur."
+      },
+      "vulga": "Un enseignement qui guide beaucoup au début puis laisse progressivement la main donne-t-il de meilleurs résultats ? C'est le principe des petites roues du vélo qu'on retire peu à peu. Dans cette étude, les élèves qui disaient recevoir ce type d'enseignement réussissaient mieux en maths, surtout les plus en difficulté. Surprise : ce que décrivent les élèves et ce que décrivent leurs enseignants ne concorde pas. En pratique : guider fortement les débutants, puis alléger, et demander aux apprenants comment ils vivent la séance. Limite : étude corrélationnelle, qui montre un lien et non une cause.",
+      "trad": {
+        "titre": "L'enseignement à charge réduite en mathématiques : une étude multiniveau des liens entre l'enseignement décrit par les élèves et les enseignants et la réussite en mathématiques",
+        "resume": "Cette étude multiniveau portant sur 927 élèves de 56 classes de mathématiques tenues par 26 enseignants examine comment l'enseignement à charge réduite (load reduction instruction), une approche fondée sur la charge cognitive qui retire progressivement le guidage, est lié à la réussite. L'usage déclaré par les élèves était positivement associé à la réussite, surtout chez les élèves au niveau antérieur plus faible, et l'usage déclaré par les enseignants était positivement associé au niveau de la classe. Les déclarations des élèves et des enseignants n'étaient pas significativement liées, ce qui suggère qu'elles reflètent des points de vue différents sur le même enseignement."
+      },
+      "addedAt": "2026-11-27T05:49:35+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "sawetaiyaram-modality-japanese",
+      "type": "paper",
+      "lang": "en",
+      "theme": "charge",
+      "date": "2026-11-23",
+      "title": "Modality effects on multimedia learning across proficiency levels: Evidence from Thai learners of Japanese",
+      "authors": "Tewich Sawetaiyaram",
+      "source": "Humanities, Arts and Social Sciences Studies, 26(3)",
+      "url": "https://doi.org/10.69598/hasss.26.3.281569",
+      "abstract": "This experiment tests the modality principle with 116 Thai learners of Japanese grouped by proficiency level and randomly assigned to picture plus narration or picture plus on-screen text. Media type had no significant effect on comprehension, while higher proficiency predicted better scores on higher-order questions. Lower-proficiency learners spent longer on text-based materials.",
+      "resume": {
+        "q": "L'effet de modalité (image + voix plutôt qu'image + texte écrit) vaut-il pour des apprenants en langue étrangère de niveaux différents ?",
+        "m": "Expérience auprès de 116 apprenants thaïlandais du japonais répartis par niveau (JLPT N1 à N3) et affectés au hasard à image + narration ou image + texte ; test de compréhension de cinq questions.",
+        "r": "Pas d'effet significatif du type de média sur la compréhension ; le niveau de langue prédit la réussite aux questions de haut niveau ; les moins avancés passent plus de temps sur les supports écrits. Statistiques non précisées dans le résumé disponible.",
+        "p": "Le principe « narration plutôt que texte à l'écran » n'est pas universel : en langue seconde, le niveau de l'apprenant pèse davantage, et l'écrit peut l'aider à suivre à son rythme."
+      },
+      "vulga": "Vaut-il mieux commenter une image à l'oral ou l'accompagner d'un texte écrit ? En général, la recherche conseille l'oral, pour ne pas surcharger les yeux. Mais pour quelqu'un qui apprend une langue, c'est comme écouter un podcast dans une langue mal maîtrisée : on aimerait pouvoir relire. Cette étude suggère qu'ici, le format ne change pas la compréhension ; c'est le niveau de langue qui fait la différence, et les moins avancés prennent plus de temps avec l'écrit. En pratique : pour des publics non natifs, proposer les deux. Limite : test très court (cinq questions) et revue régionale.",
+      "trad": {
+        "titre": "Effets de modalité sur l'apprentissage multimédia selon le niveau de compétence : données d'apprenants thaïlandais du japonais",
+        "resume": "Cette expérience teste le principe de modalité (modality principle) auprès de 116 apprenants thaïlandais du japonais, regroupés par niveau de compétence et affectés au hasard à une condition image + narration ou image + texte à l'écran. Le type de média n'a pas eu d'effet significatif sur la compréhension, tandis qu'un niveau plus élevé prédisait de meilleurs scores aux questions de haut niveau. Les apprenants de niveau plus faible passaient plus de temps sur les supports textuels."
+      },
+      "addedAt": "2026-11-27T05:49:35+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "cafe-goblet-documents-maths",
+      "type": "article",
+      "lang": "fr",
+      "theme": "evaluation",
+      "date": "2026-11-24",
+      "title": "Y a-t-il un pilotage des documents mathématiques ?",
+      "authors": "François Goblet",
+      "source": "Le Café pédagogique",
+      "url": "https://www.cafepedagogique.net/2026/11/24/y-a-t-il-un-pilotage-des-documents-mathematiques/",
+      "abstract": "Un professeur de mathématiques relève des écarts entre les programmes et les documents officiels d'évaluation : un sujet de référence du DNB mobilise une notion que les élèves de 3e n'ont pas étudiée, l'évaluation nationale de 5e porte sur des contenus retirés ou pas encore enseignés. Il demande plus de rigueur dans la rédaction de ces documents.",
+      "resume": {
+        "q": "Les documents officiels d'évaluation en mathématiques sont-ils alignés sur les programmes ?",
+        "m": "Tribune d'un enseignant de collège, à partir d'exemples précis (sujet de référence DNB d'octobre 2026, évaluation nationale de 5e de septembre 2026, guide pour les familles de 6e).",
+        "r": "Le sujet DNB demande la bissectrice, jamais étudiée par les 3e actuels ; l'évaluation de 5e porte sur un calcul de volume retiré du programme de 6e et sur des priorités opératoires du nouveau programme de 5e ; le guide familles évoque des contenus absents ou marginaux.",
+        "p": "Rappel utile de l'alignement pédagogique : une évaluation qui teste ce qui n'a pas été enseigné mesure mal et démotive. À vérifier systématiquement en ingénierie de formation."
+      },
+      "addedAt": "2026-11-27T05:49:35+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "cafe-evaluations-nationales-2026",
+      "type": "article",
+      "lang": "fr",
+      "theme": "evaluation",
+      "date": "2026-11-24",
+      "title": "Évaluations nationales : baisse en français, stabilité en maths et des écarts public-privé qui se creusent",
+      "authors": "Djéhanne Gani",
+      "source": "Le Café pédagogique",
+      "url": "https://www.cafepedagogique.net/2026/11/24/evaluations-nationales-baisse-en-francais-stabilite-en-maths-et-des-ecarts-public-prive-qui-se-creusent/",
+      "abstract": "Synthèse des résultats 2026 des évaluations nationales sur l'ensemble des niveaux : recul en français (lecture à voix haute en CE1 de 75 % à 68 % de réussite satisfaisante depuis 2021, -8 points en 4e depuis 2023), stabilité globale en mathématiques. L'écart entre public et privé au collège et au lycée passe de 12 points en 2017 à 17 points en 2026 ; plusieurs syndicats contestent les évaluations standardisées.",
+      "resume": {
+        "q": "Que disent les évaluations nationales 2026, tous niveaux confondus ?",
+        "m": "Article de synthèse à partir des résultats de la DEPP, complété par les réactions syndicales (FSU-SNUipp, CGT, SE-Unsa).",
+        "r": "Lecture à voix haute en CE1 : environ 75 % de réussite satisfaisante en 2021, 68 % en 2026 ; dictée en CE1 de 73 % à 69,9 % ; en 4e, -8 points en français et -2 en maths depuis 2023 ; maths globalement stables. Écart public-privé de 12 points en 2017 à 17 points en 2026. Académie de Toulouse exclue après une cyberattaque.",
+        "p": "Complète les résultats CM2 et 6e déjà signalés : tendance de fond sur la langue écrite, utile pour situer les besoins des publics jeunes en formation."
+      },
+      "addedAt": "2026-11-27T05:49:35+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "oecd-older-adults-ai-digital-skills",
+      "type": "report",
+      "lang": "en",
+      "theme": "adultes",
+      "date": "2026-11-25",
+      "title": "Empowering older adults in the digital age: How artificial intelligence can support digital skills development",
+      "authors": "OECD",
+      "source": "OECD Artificial Intelligence Papers, No. 69",
+      "url": "https://doi.org/10.1787/4a67264f-en",
+      "abstract": "This OECD paper examines how AI could help adults aged 65 and over develop digital skills as banking, health and public services move online. It reviews four barriers (motivation, functional and health limits, how learning is delivered and sustained, and access, usability and safety), rating the strength of evidence and asking whether each tool builds or replaces skills. It concludes that AI works best as a complement to human support and depends on standards, infrastructure and public action.",
+      "resume": {
+        "q": "Comment l'IA peut-elle aider les personnes de 65 ans et plus à développer leurs compétences numériques ?",
+        "m": "Revue de politiques et de données de l'OCDE organisée autour de quatre obstacles, avec une évaluation de la solidité des preuves et la question de savoir si chaque outil développe ou remplace la compétence.",
+        "r": "Les seniors utilisent moins le numérique, les formations leur sont souvent mal adaptées, les acquis s'érodent après la formation et l'IA aggrave les fraudes. L'IA fonctionne mieux en complément d'un accompagnement humain. Pas de chiffres sur la page de présentation.",
+        "p": "Grille utile pour concevoir des formations au numérique pour des publics seniors : distinguer les outils qui font apprendre de ceux qui font à la place, et prévoir un suivi après la formation."
+      },
+      "vulga": "L'IA peut-elle aider les seniors à se débrouiller avec les démarches en ligne ? L'OCDE passe en revue ce qui freine ce public : la motivation, les difficultés physiques, des formations mal adaptées, la peur des arnaques. Son critère clé ressemble à la différence entre un moniteur d'auto-école et un taxi : un outil qui vous apprend à conduire, ou un outil qui conduit à votre place. Conclusion : l'IA aide surtout lorsqu'elle accompagne un humain, sans le remplacer, et les acquis doivent être entretenus après la formation. Limite : synthèse de politiques, sans nouvelle étude empirique.",
+      "trad": {
+        "titre": "Donner du pouvoir d'agir aux personnes âgées à l'ère numérique : comment l'intelligence artificielle peut soutenir le développement des compétences numériques",
+        "resume": "Ce document de l'OCDE examine comment l'IA pourrait aider les adultes de 65 ans et plus à développer leurs compétences numériques, à mesure que les services bancaires, de santé et publics passent en ligne. Il passe en revue quatre obstacles (la motivation, les limites fonctionnelles et de santé, la manière dont l'apprentissage est dispensé et entretenu, et l'accès, l'ergonomie et la sécurité), en évaluant la solidité des preuves et en se demandant si chaque outil développe ou remplace les compétences. Il conclut que l'IA fonctionne mieux en complément d'un accompagnement humain et dépend de normes, d'infrastructures et de l'action publique."
+      },
+      "addedAt": "2026-11-27T05:49:35+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "cahiers-robbes-autorite-droits-enfant",
+      "type": "article",
+      "lang": "fr",
+      "theme": "adultes",
+      "date": "2026-11-20",
+      "title": "Respecter les droits de l'enfant en se formant à l'autorité éducative",
+      "authors": "Bruno Robbes",
+      "source": "Cahiers pédagogiques",
+      "url": "https://www.cahiers-pedagogiques.com/article/respecter-les-droits-de-l-enfant-en-se-formant-l-autorite-educative",
+      "abstract": "Bruno Robbes plaide pour que la Convention internationale des droits de l'enfant oriente la formation des enseignants, en s'appuyant sur le rapport parlementaire de juin 2025 et ses cinquante recommandations. Il relie les violences éducatives à une conception très verticale de l'autorité et à un manque de formation, et propose trois volets de formation.",
+      "resume": {
+        "q": "Comment former les enseignants à une autorité éducative respectueuse des droits de l'enfant ?",
+        "m": "Tribune argumentée d'un professeur en sciences de l'éducation, appuyée sur le rapport parlementaire n° 1642 du 25 juin 2025 et sur les affaires récentes.",
+        "r": "Les violences en classe tiennent surtout au manque de formation et à l'autoritarisme ; trois volets proposés : prévention des violences, connaissance de la Convention en lien avec la gestion de classe et les sanctions, pédagogies coopératives donnant la parole aux élèves. La réforme de la formation initiale n'en contient aucun.",
+        "p": "Matière pour concevoir des modules de formation de formateurs ou d'enseignants sur la gestion de groupe et l'autorité."
+      },
+      "addedAt": "2026-11-27T05:49:35+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "cafe-doublements-lycee-2026",
+      "type": "article",
+      "lang": "fr",
+      "theme": "politiques",
+      "date": "2026-11-25",
+      "title": "Lycée : les doublements en hausse à la rentrée 2026",
+      "authors": "",
+      "source": "Le Café pédagogique (d'après la note d'information DEPP n° 26.51)",
+      "url": "https://www.cafepedagogique.net/2026/11/25/lycee-les-doublements-en-hausse-a-la-rentree-2026/",
+      "abstract": "D'après les dernières données de la DEPP sur les effectifs du second degré, le redoublement progresse à tous les niveaux du lycée général et technologique. En seconde, il atteint 3,4 % (3,2 % en 2025, 2,7 % en 2020) et en terminale 2,7 %, plus du double de 2020.",
+      "resume": {
+        "q": "Comment évolue le redoublement au lycée à la rentrée 2026 ?",
+        "m": "Article du Café pédagogique reprenant la note d'information de la DEPP sur les effectifs du second degré.",
+        "r": "Seconde : 3,4 % de redoublants (3,2 % en 2025, 2,7 % en 2020) ; première : de 2,1 % à 2,4 % en un an ; terminale : 2,7 % contre 1,3 % en 2020. Après la seconde, 66,3 % vont en première générale et 23,4 % en technologique.",
+        "p": "Signal de politique éducative : le retour du redoublement, dont l'efficacité est discutée par la recherche, concerne les futurs publics de la formation post-bac."
+      },
+      "addedAt": "2026-11-27T05:49:35+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "cahiers-naji-enseignement-explicite-maroc",
+      "type": "article",
+      "lang": "fr",
+      "theme": "politiques",
+      "date": "2026-11-24",
+      "title": "Abdennasser Naji : « L'enseignement explicite dépossède les enseignants marocains de leur cœur de métier »",
+      "authors": "Sylvain Connac, Jean-Michel Zakhartchouk (entretien avec Abdennasser Naji)",
+      "source": "Cahiers pédagogiques",
+      "url": "https://www.cahiers-pedagogiques.com/article/abdennasser-naji-l-enseignement-explicite-depossede-les-enseignants-marocains-de-leur-coeur",
+      "abstract": "Un chercheur marocain critique le déploiement de l'enseignement explicite dans les « écoles pionnières » du Maroc depuis 2023. S'appuyant sur l'évaluation du Conseil supérieur de l'éducation, il estime que les gains viennent surtout de la remédiation de début d'année et conteste l'effet annoncé de 0,9 écart-type, qui décroîtrait les années suivantes.",
+      "resume": {
+        "q": "Que vaut la généralisation de l'enseignement explicite au Maroc ?",
+        "m": "Entretien avec un chercheur, appuyé sur l'évaluation du Conseil supérieur de l'éducation (avril 2025) et sur des travaux méthodologiques sur les tailles d'effet (Evans et Yuan, 2022).",
+        "r": "Contexte : moins de 40 % des élèves au niveau requis en lecture. Les gains viendraient surtout de la remédiation ; l'effet annoncé de 0,9 écart-type passerait à 0,6 puis 0,4, et une taille d'effet standardisée dépend fortement de la dispersion des scores. Le privé (environ 15 % des élèves) n'a pas adopté la méthode.",
+        "p": "Invite à lire les tailles d'effet avec prudence et à distinguer l'effet d'une méthode de celui des dispositifs qui l'accompagnent (ici la remédiation)."
+      },
+      "addedAt": "2026-11-27T05:49:35+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "cafe-merle-lycee-parcoursup",
+      "type": "article",
+      "lang": "fr",
+      "theme": "politiques",
+      "date": "2026-11-24",
+      "title": "Pierre Merle : Il faut repenser conjointement l'organisation du lycée et de Parcoursup",
+      "authors": "Pierre Merle",
+      "source": "Le Café pédagogique",
+      "url": "https://www.cafepedagogique.net/2026/11/24/pierre-merle-il-faut-repenser-conjointement-lorganisation-du-lycee-et-de-parcoursup/",
+      "abstract": "Le sociologue Pierre Merle propose de revenir à des séries au lycée en s'appuyant sur les données de choix de spécialités : 8 doublettes sur 78 concentrent 73 % des choix en terminale en 2025. Il juge trop floue l'annonce de la fin de Parcoursup en 2028 et cite une note de l'IPP sur les quotas de boursiers.",
+      "resume": {
+        "q": "Faut-il réformer ensemble le lycée et Parcoursup ?",
+        "m": "Tribune chiffrée d'un sociologue, appuyée sur la Cour des comptes, une note de l'IPP et les données de choix de spécialités.",
+        "r": "8 doublettes sur 78 concentrent 73 % des choix en terminale (2025) ; les maths sont choisies par 53 % des élèves très favorisés en 2025 (49 % en 2020) ; selon l'IPP, appliquer le quota de boursiers à toutes les phases ferait passer son taux de réalisation de 68 % à 88 %.",
+        "p": "Éclairage sur les parcours des futurs étudiants et sur les inégalités d'orientation, utile pour situer les publics entrant dans le supérieur."
+      },
+      "addedAt": "2026-11-27T05:49:35+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "hechinger-cellphone-bans-2026",
+      "type": "article",
+      "lang": "en",
+      "theme": "politiques",
+      "date": "2026-11-23",
+      "title": "Three studies in a row show teeny-tiny or zero academic gains from school cellphone bans",
+      "authors": "Jill Barshay",
+      "source": "The Hechinger Report (Proof Points)",
+      "url": "https://hechingerreport.org/proof-points-3-cellphone-ban-studies/",
+      "abstract": "The column reviews three recent studies of school phone bans: a large Florida district, a national study of lockable pouches and a Harvard CEPR/NWEA analysis of about 3.3 million students. All find tiny or null academic effects; the Harvard estimate is +0.0087 standard deviations in math and reading combined, about one to two weeks of learning. Researchers quoted describe the effects as essentially zero.",
+      "resume": {
+        "q": "Interdire les téléphones à l'école améliore-t-il les résultats scolaires ?",
+        "m": "Chronique de synthèse de trois études récentes (district de Floride, étude nationale des pochettes verrouillables, analyse Harvard CEPR/NWEA sur environ 3,3 millions d'élèves dans 4 600 écoles).",
+        "r": "Effets minimes ou nuls : +0,6 point de percentile en Floride, effet quasi nul pour les pochettes, +0,0087 écart-type en maths et lecture pour Harvard (une à deux semaines d'apprentissage).",
+        "p": "Rappel qu'une mesure de bon sens ne produit pas forcément d'effet sur les apprentissages : distinguer bien-être, climat et résultats quand on évalue un dispositif."
+      },
+      "trad": {
+        "titre": "Trois études d'affilée montrent des gains scolaires minuscules ou nuls des interdictions de téléphones à l'école",
+        "resume": "La chronique passe en revue trois études récentes sur l'interdiction des téléphones à l'école : un grand district de Floride, une étude nationale sur les pochettes verrouillables et une analyse du Harvard CEPR et de NWEA portant sur environ 3,3 millions d'élèves. Toutes trouvent des effets scolaires minuscules ou nuls ; l'estimation de Harvard est de +0,0087 écart-type en mathématiques et lecture combinées, soit environ une à deux semaines d'apprentissage. Les chercheurs cités qualifient les effets de pratiquement nuls."
+      },
+      "addedAt": "2026-11-27T05:49:35+01:00",
+      "by": "veille"
+    },
+    {
+      "id": "iza-bobba-teacher-recruiting",
+      "type": "paper",
+      "lang": "en",
+      "theme": "politiques",
+      "date": "2026-11",
+      "title": "Signal Extraction in Centralized Assignment: Evidence from Teacher Recruiting",
+      "authors": "Matteo Bobba, Tim Ederer, Gianmarco León-Ciliotta, Christopher A. Neilson, Marco Giovanni Nieddu",
+      "source": "IZA Discussion Paper No. 19098",
+      "url": "https://www.iza.org/publications/dp/19098",
+      "abstract": "Using Peru's nationwide centralised teacher assignment (10,908 applicants, 20,114 vacancies, 6,417 schools), the authors ask whether letting schools screen and interview candidates selects more effective teachers than test-based ranking. School screening does slightly better on average (0.025 vs 0.010 SD above a random pick) but varies widely across schools. Central prescreening on teacher value-added would raise the mean value-added of assigned teachers from 0.180 to up to 0.340, at the cost of more unfilled vacancies (from 37.5% to up to 56.9%).",
+      "resume": {
+        "q": "Laisser les établissements sélectionner leurs enseignants par entretien permet-il de recruter des enseignants plus efficaces qu'un classement par concours ?",
+        "m": "Analyse structurelle et empirique du système péruvien d'affectation centralisée (campagnes 2015 à 2019 : 10 908 candidats, 20 114 postes, 6 417 écoles ; valeur ajoutée calculée sur 28 283 élèves et 1 425 enseignants).",
+        "r": "La sélection par les écoles fait légèrement mieux en moyenne (0,025 contre 0,010 écart-type), avec de fortes différences entre écoles. Une présélection centrale fondée sur la valeur ajoutée porterait celle des enseignants affectés de 0,180 jusqu'à 0,340, mais les postes vacants passeraient de 37,5 % jusqu'à 56,9 %.",
+        "p": "Éclairage indirect pour le recrutement de formateurs : l'entretien apporte un signal, mais sa qualité dépend de qui le mène ; tout filtre plus sélectif a un coût en postes non pourvus."
+      },
+      "vulga": "Vaut-il mieux laisser chaque école choisir ses enseignants en entretien, ou les affecter selon un classement national ? C'est un peu comme recruter un joueur : l'entraîneur qui le voit jouer repère des choses qu'une fiche de statistiques ne montre pas, mais tous les entraîneurs n'ont pas le même coup d'œil. Au Pérou, les entretiens ont en moyenne un peu amélioré les choix, avec de grosses différences selon les écoles. Un filtre central plus strict donnerait de meilleurs enseignants, mais laisserait davantage de postes vides. Limite : modèle économique fondé sur les seuls résultats en maths de CM1 dans le public.",
+      "trad": {
+        "titre": "Extraire un signal dans une affectation centralisée : données sur le recrutement des enseignants",
+        "resume": "À partir du système national péruvien d'affectation centralisée des enseignants (10 908 candidats, 20 114 postes, 6 417 écoles), les auteurs se demandent si laisser les écoles sélectionner et interroger les candidats permet de choisir des enseignants plus efficaces qu'un classement fondé sur des tests. La sélection par les écoles fait légèrement mieux en moyenne (0,025 contre 0,010 écart-type au-dessus d'un choix au hasard), mais varie fortement d'une école à l'autre. Une présélection centrale fondée sur la valeur ajoutée des enseignants (teacher value-added) porterait la valeur ajoutée moyenne des enseignants affectés de 0,180 jusqu'à 0,340, au prix de davantage de postes non pourvus (de 37,5 % jusqu'à 56,9 %)."
+      },
+      "addedAt": "2026-11-27T05:49:35+01:00",
+      "by": "veille"
+    }
+  ]
+}
